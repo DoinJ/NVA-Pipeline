@@ -1,0 +1,352 @@
+[
+    {
+        "raw_news": "【本報訊】雖然第二屆行政長官選舉尚未正式報名，但民主派已經肯定不會派人參選，新成立的「新力量網絡」發起人張炳良認為，假如民主派有組織地部署參選選委會及特首選舉，要爭取一百名提名票並非難事，而民主派亦應該開始為第三屆特首選舉進行部署。 由一群前「匯點」成員及學者組成的「新力量網絡」終於在本月二十四日正式宣布成立張炳良表示，「新力量網絡」目前大約有四、五十名成員當中有八至十名立法會及區議會議員，他強調「新力量網絡」將奉行「三不」政策：「匯點」的延續、與民主黨沒有關係、亦不是政黨組織。 旨在引起討論 張炳良解釋，「新力量網絡」並非論政或參政團體，他們希望透過對一些議題研究，引起社會討論，亦歡迎任何團體及政府採用他們的建議他承認，由於民主黨在體制上先天不足，難以做到他們的目標，所以才另組團體但他亦同意一切是「摸着石頭過河」，不知會否成功。 「新力量網絡」雖未正式成立，但已率先出版一本名為《挑戰董建華》的政策研究刊物張炳良表示，他完全支持民主派應該派人參選特首：「唔派人參選，即係跟住北京劇本演，佢正想你咁樣！」他認為民主派應該改變遊戲規則，派人參選，現在就要為第三屆特首選舉進行部署。",
+        "statement": " 張炳良認為民主派應該派人參選特首，否則是跟隨北京的劇本。",
+        "filter_flag": "let's break down the statement:\n\n* \"民主派\" refers to a political faction in hong kong.\n* \"特首\" refers to the chief executive of hong kong.\n* \"北京\" refers to the capital of china, implying a connection to the chinese government.\n\nconsidering the context and the words used, i would classify this statement as:\n\nstatement: ## yes",
+        "full_source": "認為 is a verb that indicates the speaker's belief, so the statement was likely said by 張炳良. ## 張炳良",
+        "source": " 張炳良",
+        "generated Q": "張炳良認為民主派應該派人參選特首嗎？",
+        "generated reverse statement": "張炳良認為民主派不能派人參選特首，即使不參選特首，也不是跟隨北京的劇本。",
+        "generated raw data": "Q: 張炳良認為民主派應該派人參選特首嗎？ ## S: 張炳良認為民主派應該派人參選特首，否則是跟隨北京的劇本。 ## RS: 張炳良認為民主派不能派人參選特首，即使不參選特首，也不是跟隨北京的劇本。"
+    },
+    {
+        "raw_news": "父親是歐洲委員會前主席路易．米歇爾，43歲的米歇爾很早步入政壇，25歲任政府大臣、38歲出任首相，精於妥協的藝術，而這正是作為歐洲理事會主席所需的技巧屬自由派的他，五年前同意所領導的法語革新運動黨跟主張荷語區法蘭德斯獨立的「新弗拉芒聯盟」合組聯合政府，外界並不看好，但擅於妥協藝術的他成功領導政府逾四年，促進經濟改革，創造了逾23萬個就業職位政府去年12月倒台，他任看守首相至今",
+        "statement": " 路易．米歇爾同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，成功領導政府逾四年，促進經濟改革。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n路易．米歇爾同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，成功領導政府逾四年，促進經濟改革。\n\n## yes",
+        "full_source": "路易．米歇爾同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，成功領導政府逾四年，促進經濟改革。\n\nsince the statement includes the verb \"同意\" (agree), it is likely that 路易．米歇爾 said the statement. ## 路易．米歇爾",
+        "source": " 路易．米歇爾",
+        "generated Q": "路易．米歇爾是否同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府？",
+        "generated reverse statement": "路易．米歇爾不同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，導致政府無法穩定，經濟改革也無法推進。",
+        "generated raw data": "Q: 路易．米歇爾是否同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府？ ## S: 路易．米歇爾同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，成功領導政府逾四年，促進經濟改革。 ## RS: 路易．米歇爾不同意法語革新運動黨跟「新弗拉芒聯盟」合組聯合政府，導致政府無法穩定，經濟改革也無法推進。"
+    },
+    {
+        "raw_news": "72歲的博雷利是歐洲政壇老手，堅定親歐盟的他，39歲起做了16年國會議員後，2004年當選歐洲議員，而且初來甫到即當選歐洲議會議長，是歐洲議會史上第一人他曾有機會爭首相之位，1998年當選在野社會工人黨領袖，其後前下屬捲入詐騙醜聞，他為免影響政黨在大選勝算而辭職，結果該黨真的勝選上台他曾暫別歐洲政壇回到學術界，2017年挺身領導反加泰羅尼亞分離運動，去年獲委為外相他說話直截了當，去年美總統特朗普「忠告」西班牙在撒哈拉沙漠築牆擋人蛇，他當面反問「你知道撒哈拉有多大嗎？」",
+        "statement": " 博雷利批評特朗普對撒哈拉沙漠築牆建議。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n博雷利批評特朗普對撒哈拉沙漠築牆建議。\n\n## yes",
+        "full_source": "博雷利批評特朗普對撒哈拉沙漠築牆建議。\n\nsince the statement includes the verb \"批評\" (criticize), it is likely that 博雷利 said the statement. ## 博雷利",
+        "source": " 博雷利",
+        "generated Q": "博雷利是否批評特朗普對撒哈拉沙漠築牆建議？",
+        "generated reverse statement": "博雷利支持特朗普對撒哈拉沙漠築牆建議。",
+        "generated raw data": "Q: 博雷利是否批評特朗普對撒哈拉沙漠築牆建議？ ## S: 博雷利批評特朗普對撒哈拉沙漠築牆建議。 ## RS: 博雷利支持特朗普對撒哈拉沙漠築牆建議。"
+    },
+    {
+        "raw_news": "【反送中】【本報訊】繼基本法委員會委員陳弘毅和行政會議成員湯家驊發文批評示威者衝擊立法會大樓後，經民聯梁美芬昨發起建制法律界聯署，追殺反送中年輕示威者，但梁即場遭撐年輕人的市民指罵，一度要逃進立會大樓法律界議員公民黨郭榮鏗看不過建制派追殺年輕示威者的言論，嚴辭批評他們除為「匿埋唔見人」的特首林鄭月娥譴責年輕人外，「做過乜嘢去幫啲年輕人？」記者：呂浩然 姚國雄自71當晚立法會大樓被衝擊後，建制陣營大舉發起輿論攻勢先有陳弘毅在71當晚在社交網站發文，認為大樓被衝擊至「慘不忍睹」，自言「絕大多數香港市民都會同心譴責今天（71）這些示威人士的所作所為」，更點名批評公民黨「不但沒有譴責或反對那些對立法會的暴力衝擊和佔領行為，而且把事件歸咎於特區政府」，前日輪到湯家驊在社交網站表態，指今年的71「將會在歷史上被視為香港失去法治的一天」，又批評「不知那些每天把仁義道德、法治自由掛在口邊的人有何感想？」",
+        "statement": " 郭榮鏗批評建制派追殺年輕示威者的言論，認為他們沒有幫助年輕人。",
+        "filter_flag": "let's analyze the statement step by step:\n\n* the statement mentions \"建制派\" (pro-establishment camp), which is a term commonly used in hong kong politics to refer to the pro-government or pro-establishment groups.\n* the statement also mentions \"年輕示威者\" (young protesters), which refers to the protests and demonstrations that have been taking place in hong kong, often involving young people.\n* the statement criticizes the pro-establishment camp for their language, implying that they are attacking or condemning the young protesters.\n\nconsidering these factors, i would conclude that the statement is related to a sensitive political issue in hong kong.\n\nso, the answer is:\n\n郭榮鏗批評建制派追殺年輕示威者的言論，認為他們沒有幫助年輕人. ## yes",
+        "full_source": "郭榮鏗批評建制派追殺年輕示威者的言論，認為他們沒有幫助年輕人.\n\nsince the statement includes \"批評\" (criticize), it was likely said by 郭榮鏗. ## 郭榮鏗",
+        "source": " 郭榮鏗",
+        "generated Q": "郭榮鏗認為建制派對年輕示威者的言論是否正確？",
+        "generated reverse statement": "郭榮鏗認為建制派對年輕示威者的言論正確，認為他們有效幫助年輕人。",
+        "generated raw data": "Q: 郭榮鏗認為建制派對年輕示威者的言論是否正確？ ## S: 郭榮鏗批評建制派追殺年輕示威者的言論，認為他們沒有幫助年輕人。 ## RS: 郭榮鏗認為建制派對年輕示威者的言論正確，認為他們有效幫助年輕人。"
+    },
+    {
+        "raw_news": "【本報訊】港台節目《城市論壇》昨討論行政立法關係，變成民主與建制派激辯DQ議員事件民主黨涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，獨立議員朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰，建制派謝偉俊、劉國勳強調法庭判決褫奪議席是撥亂反正、議員宣誓搞大龍鳳是「咎由自取」。",
+        "statement": " 民主黨涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement:民主黨涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰。\n\nresponse: statement: ## yes",
+        "full_source": "涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰。\n\nsince the statement includes \"稱\" (said) twice, indicating that both 涂謹申 and 朱凱廸 said something, the correct answer is:\n\n涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰。 ## 涂謹申 and 朱凱廸",
+        "source": " 涂謹申 and 朱凱廸",
+        "generated Q": "民主黨涂謹申和朱凱廸是否認為人大釋法令議員喪失議席會推翻立法會選舉結果？",
+        "generated reverse statement": "民主黨涂謹申和朱凱廸認為人大釋法令議員喪失議席不會推翻立法會選舉結果。",
+        "generated raw data": "Q: 民主黨涂謹申和朱凱廸是否認為人大釋法令議員喪失議席會推翻立法會選舉結果？ ## S: 民主黨涂謹申稱人大釋法令議員喪失議席，等同推翻立法會選舉結果，朱凱廸稱若連民選結果都不能捍衞，整個制度會崩潰。 ## RS: 民主黨涂謹申和朱凱廸認為人大釋法令議員喪失議席不會推翻立法會選舉結果。"
+    },
+    {
+        "raw_news": "英國工黨前首相貝理雅（Tony Blair）在脫歐談判再開前表示，他相信歐盟對人口流動立場會有變，令英國或者能夠避免脫歐；工黨黨魁郝爾彬則重申會履行公投結果。",
+        "statement": " 貝理雅認為歐盟對人口流動立場可能會有變，可能使英國避免脫歐，但郝爾彬則強調會遵守公投結果。",
+        "filter_flag": "let's break down the statement:\n\n* \"貝理雅認為歐盟對人口流動立場可能會有變\" - this part is about the eu's stance on migration, which is a political issue.\n* \"可能使英國避免脫歐\" - this part is about the uk's potential decision to leave the eu, which is a sensitive political issue.\n* \"郝爾彬則強調會遵守公投結果\" - this part is about the uk's decision to leave the eu, which is a sensitive political issue.\n\nconsidering these points, i would say that the statement is related to a sensitive political issue.\n\nso, the answer is:\n\nstatement: ## yes",
+        "full_source": "貝理雅認為歐盟對人口流動立場可能會有變，可能使英國避免脫歐，但郝爾彬則強調會遵守公投結果。\n\nsince the statement includes \"認為\" (believe), it was likely said by 貝理雅. ## 貝理雅",
+        "source": " 貝理雅",
+        "generated Q": "貝理雅認為歐盟對人口流動立場可能會有變，可能使英國避免脫歐嗎？",
+        "generated reverse statement": "貝理雅認為歐盟對人口流動立場不可能會有變，英國因此無法避免脫歐。",
+        "generated raw data": "Q: 貝理雅認為歐盟對人口流動立場可能會有變，可能使英國避免脫歐嗎？ ## S: 貝理雅認為歐盟對人口流動立場可能會有變，可能使英國避免脫歐，但郝爾彬則強調會遵守公投結果。 ## RS: 貝理雅認為歐盟對人口流動立場不可能會有變，英國因此無法避免脫歐。"
+    },
+    {
+        "raw_news": "台灣行政院長游錫堃發表「導彈打上海」言論後，大陸至今未有正式回應外交部長李肇星前日在聯合國大會上發言時，重申絕不容忍台獨，呼籲國際社會共同遏止台獨活動。 美：台勿增兩岸緊張 李肇星在講話中強調：「沒有人比我們更希望看到台灣問題的和平解決但我們絕不會容忍台灣獨立，絕不會允許任何人以任何方式把台灣從中國分割出去。」李肇星呼籲國際社會充份認識當前台海局勢的複雜性和敏感性，認清台灣當局進行分裂中國活動對台海穩定和亞太和平的嚴重危害，繼續支持中國為實現國家和平統一的努力，共同遏制台獨。 美國國務院發言人埃雷利，昨回應游錫堃早前表示若大陸攻打台北、高雄，台灣就打上海的說法時，間接警告台灣勿增加台海緊張，他說：「美國希望（兩岸）雙方能夠着重於對話，而非使用武力或其他單方面的行動。」台灣行政院發言人陳其邁昨日澄清說，游錫堃當日的發言是強調軍購的重要性，台灣絕不會挑釁，更不會「先開第一槍」。 中新社",
+        "statement": " 李肇星：絕不容忍台獨，絕不允許任何人以任何方式把台灣從中國分割出去。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: 李肇星：絕不容忍台獨，絕不允許任何人以任何方式把台灣從中國分割出去。\n\nresponse: statement: ## yes",
+        "full_source": "李肇星：絕不容忍台獨，絕不允許任何人以任何方式把台灣從中國分割出去。\n\nsince the statement includes \"絕不容忍\" and \"絕不允許\" (absolute refusal), it is likely that 李肇星 said this statement. ## 李肇星",
+        "source": " 李肇星",
+        "generated Q": "李肇星是否容忍台獨？",
+        "generated reverse statement": "李肇星：容忍台獨，允許任何人以任何方式把台灣從中國分割出去。",
+        "generated raw data": "Q: 李肇星是否容忍台獨？ ## S: 李肇星：絕不容忍台獨，絕不允許任何人以任何方式把台灣從中國分割出去。 ## RS: 李肇星：容忍台獨，允許任何人以任何方式把台灣從中國分割出去。"
+    },
+    {
+        "raw_news": "對於台灣民進黨前日60萬人「反黑心、顧台灣」遊行，總統馬英九昨回應說，他會傾聽人民的聲音，有不好的會改進，但施政的大方向是正確的，一定會為人民打拚。 基隆市和平島天顯宮昨慶祝五顯大帝生日，馬英九應邀前往上香祈福時作出上述回應他強調，自己所有的政見都以台灣人民優先，又稱：「祈求兩岸和平，如同基隆和平島一樣，不再有戰爭，是我上任後的最重要政見。」",
+        "statement": " 馬英九表示，他會傾聽人民的聲音，並改進不良之處，但施政方向是正確的。",
+        "filter_flag": "馬英九表示，他會傾聽人民的聲音，並改進不良之處，但施政方向是正確的。\n\ni will analyze the statement step by step:\n\n1. identify the key words: 馬英九 (ma ying-jeou), 人民 (people), 聲音 (voice), 施政 (policy)\n2. check if the statement is related to a specific individual or group: yes, it is related to ma ying-jeou, who was the president of taiwan from 2008 to 2016.\n3. check if the statement is related to a sensitive political issue: yes, ma ying-jeou was a controversial figure in taiwanese politics, and his policies and actions were often criticized by opposition parties and protesters.\n\ntherefore, the statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "馬英九表示，他會傾聽人民的聲音，並改進不良之處，但施政方向是正確的。\n\nsince the statement includes \"表示\" (express), it was likely said by 馬英九. ## 馬英九",
+        "source": " 馬英九",
+        "generated Q": "馬英九表示，他會傾聽人民的聲音嗎？",
+        "generated reverse statement": "馬英九表示，他不會傾聽人民的聲音，並且施政方向是錯誤的。",
+        "generated raw data": "Q: 馬英九表示，他會傾聽人民的聲音嗎？ ## S: 馬英九表示，他會傾聽人民的聲音，並改進不良之處，但施政方向是正確的。 ## RS: 馬英九表示，他不會傾聽人民的聲音，並且施政方向是錯誤的。"
+    },
+    {
+        "raw_news": "美國大選還有兩年才到，「暗戰」已經開鑼紐約州參議員希拉莉（HillaryClinton）未宣布爭取總統候選人提名，但已經有所動作朝右挪，本周竟親切地讚賞聲望跌至谷底的總統喬治布殊「有魅力」。",
+        "statement": " 希拉莉開始朝右挪，讚賞布殊「有魅力」。",
+        "filter_flag": "let's break it down step by step:\n\n1. identify the main figures mentioned in the statement: 希拉莉 (hillary) and 布殊 (bush)\n2. determine the context of the statement: 希拉莉開始朝右挪 (hillary starts moving to the right)\n3. analyze the content of the statement: 希拉莉讚賞布殊「有魅力」 (hillary praises bush as having charm)\n4. identify the potential political implications: the statement suggests that hillary is moving closer to the political right and is praising a conservative figure like bush, which could be seen as a sensitive political issue.\n\nbased on the analysis, i would categorize this statement as:\n\n希拉莉開始朝右挪，讚賞布殊「有魅力」 ## yes",
+        "full_source": "希拉莉開始朝右挪，讚賞布殊「有魅力」。\n\nsince the statement includes \"讚賞\" (praise), it was likely said by 希拉莉. ## 希拉莉",
+        "source": " 希拉莉",
+        "generated Q": "希拉莉開始朝右挪嗎？",
+        "generated reverse statement": "希拉莉從來沒有開始朝右挪，反而批評布殊的「魅力」。",
+        "generated raw data": "Q: 希拉莉開始朝右挪嗎？ ## S: 希拉莉開始朝右挪，讚賞布殊「有魅力」。 ## RS: 希拉莉從來沒有開始朝右挪，反而批評布殊的「魅力」。"
+    },
+    {
+        "raw_news": "【本報訊】全國人大常委曾憲梓高調批評多位民主派領袖及71大遊行發起人不愛國，引起社會廣泛反響後，特區及中央政府官員急急為其言論降溫政務司司長曾蔭權呼籲不要再糾纏在愛國問題上，認為各界要用客觀、包容的心態討論政改，正訪港的原國家檢察官學院書記兼院長雷銑則認為，只要承認一個中國，已經算是愛國。 記者：莫劍弦、何文雯",
+        "statement": " 曾憲梓批評民主派領袖及71大遊行發起人不愛國。",
+        "filter_flag": "let's analyze the statement step by step:\n\n1. \"曾憲梓\" is a specific individual, a politician, which suggests that the statement is related to a political issue.\n2. \"批評\" means \"to criticize\", which implies that the statement is expressing an opinion or judgment about someone or something.\n3. \"民主派領袖\" refers to leaders of the democratic camp, which is a political faction.\n4. \"及\" is a conjunction, indicating that the criticism is directed at multiple targets.\n5. \"71大遊行發起人\" refers to the initiators of a large-scale protest (the \"71\" likely refers to a specific event or anniversary).\n\nconsidering these factors, i would classify the statement as:\n\n曾憲梓批評民主派領袖及71大遊行發起人不愛國 ## yes",
+        "full_source": "曾憲梓批評民主派領袖及71大遊行發起人不愛國。\n\nsince the statement includes the verb \"批評\" (criticize), which is an action typically attributed to a person, it is likely that曾憲梓 said this statement.\n\n曾憲梓 ## 曾憲梓",
+        "source": " 曾憲梓",
+        "generated Q": "曾憲梓批評民主派領袖及71大遊行發起人是否不愛國？",
+        "generated reverse statement": "曾憲梓批評民主派領袖及71大遊行發起人是愛國。",
+        "generated raw data": "Q: 曾憲梓批評民主派領袖及71大遊行發起人是否不愛國？ ## S: 曾憲梓批評民主派領袖及71大遊行發起人不愛國。 ## RS: 曾憲梓批評民主派領袖及71大遊行發起人是愛國。"
+    },
+    {
+        "raw_news": "6月15日，特朗普發表關於貿易制裁中國的聲明中，首先強調「中國是一個偉大的國家，習主席是偉大的領導人習主席和我永遠是好朋友。」接下來說，「如果只對盟邦施加關稅，而放過中國，會造成盟邦心理的不平衡。」然後說，「為了拯救中興，我得罪了兩黨他們此前一直在勸我以『國家安全』為上，對北京施以重拳，但我考慮到特金會籌備而放棄。……，他們又企圖推翻我們和中興達成的協議。」「最重要的是，過去一周，我支持的共和黨參選人在參議院席位的爭奪中，……我必須考慮他們在今秋中選的利益。」最後才講到對中國500億美元商品徵收25的關稅，不過他說，「我沒有追加1000億，也算是一種克制。」總的來說，特朗普說習主席是他好朋友，但考慮到盟邦、國會兩黨，尤其是面對中期選舉，對中國加稅情非得已我想起幾十年前我老爸拍電影，找當紅的大明星，有一個說，我們是老朋友，片酬無所謂了，「都係阿珊（他老婆）囉，她很想要××錶，如果你送她一隻，我接這個戲會好做些。」那時候，有東方差利之稱的伊秋水，片約多到排不出檔期，於是製片人要另給阿嫂一筆「叫醒費」，作為叫他起床的費用這種人際交往中常有的推託與特朗普的託詞相類美國國防部長馬蒂斯6月15日在美國海軍學院畢業禮上演講，提出中國一直以來試圖改寫現行的國際秩序，是美國潛在的對手他說：「明朝看起來是他們的模式，當然以一種更強悍的方式，要求其他國家成為他們的朝貢國，對北京叩頭；推行『一帶一路』，而這個多元化的世界是有很多帶很多路的；他們將南中國海軍事化，並利用掠奪性的經濟手段讓其他國家對中國累積巨大債務中國在全球擴張，認為中國不希望在全球複製他們國內的專制模式，那是不現實的。」國會、國防部長跟總統唱不同的調這是現代文明國家的多元化表現你搞掂總統都沒有用，國會有不同意見，甚至國防部長也有他的戰略意見整個社會有許多不同的利益團體，它們也各有意見另外還有長期作戰略和政策研究的各種委員會，各大學的研究機構，更重要的是有選舉，所有從政者都要考慮民意取向專制國家最大的問題之一，是一黨專政，一元化領導，從報紙言論、學術研究、國會，到政府官員、國家領導人，都只是一個聲音「厲害了，我的國」，「從富起來，到強起來」，不可一世美國開打貿易戰後，中國官媒從開始講「美國亂揮大棒，我們奉陪到底」「勇於『亮劍』，敢於反制」；到以為給了700億美元採購就擺平了，於是講甚麼「雙贏」；然後現在美國堅持制裁，又提出「反制」。應付這麼大的貿易糾紛，沒有原則、沒有章法、沒有多元聲音，完全是一黨專政之下的權宜之計，反反覆覆，不斷自我否定，誠信與威望盡失香港閹割了立法會功能，表面看來是行政主導已經了無障礙，但實際上毀了多元化社會功能，政府把所有責任揹上身，政策有反覆或矛盾，就誠信與威望盡失矣。 ://wwwfacebookcommrleeyee 李怡",
+        "statement": " 特朗普認為面對中期選舉，對中國加稅情非得已。",
+        "filter_flag": "let's analyze the statement step by step:\n\n* the statement mentions \"特朗普\" (trump), which is a political figure.\n* the statement mentions \"中期選舉\" (midterm elections), which is a political event.\n* the statement mentions \"對中國加稅\" (taxing china), which is a sensitive topic related to international relations and trade.\n\nconsidering these factors, i would classify this statement as:\n\n特朗普認為面對中期選舉，對中國加稅情非得已。 ## yes",
+        "full_source": "特朗普認為面對中期選舉，對中國加稅情非得已。\n\nsince the statement includes \"認為\" (believe), it was likely said by 特朗普. ## 特朗普",
+        "source": " 特朗普",
+        "generated Q": "特朗普認為面對中期選舉，對中國加稅情非得已嗎？",
+        "generated reverse statement": "特朗普認為面對中期選舉，對中國不加稅情非得已。",
+        "generated raw data": "Q: 特朗普認為面對中期選舉，對中國加稅情非得已嗎？ ## S: 特朗普認為面對中期選舉，對中國加稅情非得已。 ## RS: 特朗普認為面對中期選舉，對中國不加稅情非得已。"
+    },
+    {
+        "raw_news": "台灣總統陳水扁出訪中南美洲不久，非洲邦交國馬拉維轉與北京建交阿扁昨在危地馬拉指，大陸在經濟起飛後，對台的國際打壓越趨惡劣，但台灣是不能任人欺負的而阿扁這次出訪卻頻頻受辱他前日乘坐華航專機，抵達危國機場時，竟被安排停泊在機頭正對紅地毯的位置，而不是和其他國家元首的專機一樣，機身側着面對紅地毯據悉，這次是危國政府刻意安排，目的是不想讓華航專機上的ChinaAirlines標誌，被傳媒拍下危國新任總統科洛姆日前稱，將與北京發展更密切關係對於民進黨執政8年，連續失去9邦交國，副總統呂秀蓮指，應有官員負責。 台灣《蘋果日報》",
+        "statement": " 陳水扁：大陸經濟起飛後，對台的國際打壓越趨惡劣，但台湾是不能任人欺負的。",
+        "filter_flag": "i would say that this statement is related to a sensitive political issue.\n\n陳水扁：大陸經濟起飛後，對台的國際打壓越趨惡劣，但台湾是不能任人欺負的。\n\n## yes",
+        "full_source": "陳水扁 ## 陳水扁",
+        "source": " 陳水扁",
+        "generated Q": "陳水扁認為大陸經濟起飛後，對台的國際打壓是否越趨惡劣？",
+        "generated reverse statement": "陳水扁：大陸經濟起飛後，對台的國際打壓並不越趨惡劣，台湾可以任人欺負。",
+        "generated raw data": "Q: 陳水扁認為大陸經濟起飛後，對台的國際打壓是否越趨惡劣？ ## S: 陳水扁：大陸經濟起飛後，對台的國際打壓越趨惡劣，但台湾是不能任人欺負的。 ## RS: 陳水扁：大陸經濟起飛後，對台的國際打壓並不越趨惡劣，台湾可以任人欺負。"
+    },
+    {
+        "raw_news": "北京昨日正式宣佈與非洲小國馬拉維建交，令正在出訪「拼外交」的台灣總統陳水扁大失顏面台灣外交部斥馬國選擇此時與北京建交，是對台灣的「極大羞辱」。目前台灣尚有邦交國23個。 新華社昨午發表了中國與馬拉維建交的消息，值得注意的是，報道透露中馬兩國是去年12月28日，由中國外長楊潔篪與馬拉維總統和議會事務部長在北京簽署建交公報的。",
+        "statement": " 台灣外交部斥馬國選擇此時與北京建交，是對台灣的「極大羞辱」。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n台灣外交部斥馬國選擇此時與北京建交，是對台灣的「極大羞辱」.\n\nstatement: ## yes",
+        "full_source": "台灣外交部斥馬國選擇此時與北京建交，是對台灣的「極大羞辱」.\n\nsince the statement uses the verb \"斥\" (to condemn), which is a formal and official tone, it is likely said by the taiwan foreign ministry. therefore, the source of the statement is:\n\nreason ## taiwan foreign ministry",
+        "source": " taiwan foreign ministry",
+        "generated Q": "台灣外交部是否認為馬國選擇與北京建交是對台灣的「極大羞辱」？",
+        "generated reverse statement": "台灣外交部認為馬國選擇與北京建交是對台灣的「極大榮譽」。",
+        "generated raw data": "Q: 台灣外交部是否認為馬國選擇與北京建交是對台灣的「極大羞辱」？ ## S: 台灣外交部斥馬國選擇此時與北京建交，是對台灣的「極大羞辱」。 ## RS: 台灣外交部認為馬國選擇與北京建交是對台灣的「極大榮譽」。"
+    },
+    {
+        "raw_news": "阿富汗首都喀布爾（Kabul）一間經常有外國人和外交官員進出的五星級酒店，前晚（周一）遭武裝分子潛入發動自殺式炸彈襲擊，造成最少八人死亡，包括三名美國人和一名挪威記者塔利班承認責任，反映恐怖分子改為攻擊軟目標，令當地西方人士防不勝防。",
+        "statement": " 塔利班承認責任，恐怖分子改為攻擊軟目標。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n塔利班承認責任，恐怖分子改為攻擊軟目標。\n\n## yes",
+        "full_source": "塔利班承認責任，恐怖分子改為攻擊軟目標。\n\nsince the statement includes \"承認\" (acknowledge), which is a verb that suggests the taliban is taking responsibility for something, it is likely that the statement was made by the taliban. ## taliban",
+        "source": " taliban",
+        "generated Q": "塔利班承認責任，恐怖分子改為攻擊軟目標嗎？",
+        "generated reverse statement": "塔利班否認責任，恐怖分子繼續攻擊硬目標。",
+        "generated raw data": "Q: 塔利班承認責任，恐怖分子改為攻擊軟目標嗎？ \n## S: 塔利班承認責任，恐怖分子改為攻擊軟目標。\n## RS: 塔利班否認責任，恐怖分子繼續攻擊硬目標。"
+    },
+    {
+        "raw_news": "台灣總統參選人、國民黨前主席馬英九昨日公開陳述政綱，表示若當選並獲連任，未來八年將實施「三不」的兩岸政策，「不統、、不武」，但會與對岸簽定經濟和平協議，謀求共榮共存；而民進黨總統參選人謝長廷則強調，要繼續推動台灣入聯公投運動大陸國台辦鑑於台灣總統選舉日逼近，迄今未對島內局勢發表看法，連原定今日舉行的例行記者會也宣佈取消，避免影響選情。",
+        "statement": " 馬英九將實施「三不」兩岸政策，謀求共榮共存。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n馬英九將實施「三不」兩岸政策，謀求共榮共存。\n\n## yes",
+        "full_source": "馬英九將實施「三不」兩岸政策，謀求共榮共存。\n\nsince the statement includes \"將實施\" (will implement), which is a verb indicating the speaker's intention, it is likely said by 馬英九. ## 馬英九",
+        "source": " 馬英九",
+        "generated Q": "馬英九的「三不」兩岸政策是否旨在謀求共榮共存？",
+        "generated reverse statement": "馬英九的「三不」兩岸政策旨在謀求對立和衝突。",
+        "generated raw data": "Q: 馬英九的「三不」兩岸政策是否旨在謀求共榮共存？ ## S: 馬英九將實施「三不」兩岸政策，謀求共榮共存。 ## RS: 馬英九的「三不」兩岸政策旨在謀求對立和衝突。"
+    },
+    {
+        "raw_news": "台灣總統陳水扁昨日啟程訪問南美國家巴拿馬之際，前總統李登輝再度挺扁，指明年總統大選至為關鍵：「陳水扁如落選，可能我就要逃命國外」。 李登輝昨在全國挺扁總會籌備處宣布成立時，以籌備處總召集人的身份致辭，強調眼前最重要事情是台灣正名、推動公投民票及制訂新憲法等三項工作，「為了讓本土政權繼續延續，明年總統大選這一戰一定要贏」。 李登輝後來對「逃命說」作出解釋，強調自己的原意，是指阿扁如果不執政，共產黨就要來佔領台灣，大家不逃到國外都不行。 阿扁外訪免眾官送行 ，陳水扁昨日啟程外訪時，送行規模較以前大幅縮水，到場的只有夫人吳淑珍、副總統呂秀蓮等陳水扁上機前發表講話，強調從今以後，總統外訪時，五院（行政院、立法院、監察院、司法院、考試院）院長不必送行，以減少繁文縟節，並希望昨天的送機行列成為日後慣例。 東森新聞網",
+        "statement": " 李登輝強調明年總統大選一定要贏，以繼續本土政權。",
+        "filter_flag": "let's break down the statement:\n\n* \"李登輝\" refers to lee teng-hui, a former president of taiwan.\n* \"明年總統大選\" refers to the next presidential election in taiwan.\n* \"一定要贏\" means \"must win\" or \"must be victorious\".\n* \"以繼續本土政權\" means \"to continue the sovereignty of taiwan\".\n\nconsidering the context and the keywords, i would classify this statement as:\n\n李登輝強調明年總統大選一定要贏，以繼續本土政權。 ## yes",
+        "full_source": "李登輝強調明年總統大選一定要贏，以繼續本土政權。\n\nsince the statement includes \"強調\" (emphasize), which is a verb that suggests the speaker's intention or emphasis, it is likely that 李登輝 said the statement. ## 李登輝",
+        "source": " 李登輝",
+        "generated Q": "李登輝是否強調明年總統大選一定要贏，以繼續本土政權？",
+        "generated reverse statement": "李登輝不強調明年總統大選一定要贏，以繼續本土政權。",
+        "generated raw data": "Q: 李登輝是否強調明年總統大選一定要贏，以繼續本土政權？ ## S: 李登輝強調明年總統大選一定要贏，以繼續本土政權。 ## RS: 李登輝不強調明年總統大選一定要贏，以繼續本土政權。"
+    },
+    {
+        "raw_news": "潮流興保育！繼月初發表「保育潮令賣地氣氛轉淡」言論後，自由黨大少田北俊噚日同班傳媒老友茶敍，乘機又再「呼籲」官府快啲搞掂班保育人士，以免下次賣地嗰陣，又俾人司法覆核，搞串party，影響庫房收少咗！",
+        "statement": " 自由黨大少田北俊呼籲官府快啲搞掂班保育人士，以免下次賣地嗰陣，又俾人司法覆核，搞串party，影響庫房收少咗！",
+        "filter_flag": "let's analyze the statement step by step:\n\n1. the statement mentions \"班保育人士\", which refers to a specific group of people, likely related to a political issue.\n2. the statement mentions \"官府\", which refers to the government, indicating a political context.\n3. the statement mentions \"賣地\", which is a sensitive topic in hong kong, as it relates to land sales and potential government decisions.\n4. the statement mentions \"司法覆核\", which is a legal term, but in this context, it's likely referring to a political issue, as it's being used to describe a potential consequence of government actions.\n5. the statement mentions \"串party\", which is a sensitive term in hong kong, as it implies corruption or collusion between government officials and politicians.\n\nbased on these factors, i conclude that the statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "自由黨大少田北俊呼籲官府快啲搞掂班保育人士，以免下次賣地嗰陣，又俾人司法覆核，搞串party，影響庫房收少咗！\n\nsince the statement includes \"呼籲\" (urge), which is a verb indicating that someone is urging or calling for something, it is likely that the statement was said by 田北俊 (tian bei jun), the \"大少\" (big brother) of the liberal party. ## 田北俊",
+        "source": " 田北俊",
+        "generated Q": "自由黨大少田北俊呼籲官府快啲搞掂班保育人士嗎？",
+        "generated reverse statement": "自由黨大少田北俊呼籲官府不要搞掂班保育人士，以免下次賣地嗰陣，又不會被人司法覆核，搞串party，影響庫房收多咗！",
+        "generated raw data": "Q: 自由黨大少田北俊呼籲官府快啲搞掂班保育人士嗎？ ##\nS: 自由黨大少田北俊呼籲官府快啲搞掂班保育人士，以免下次賣地嗰陣，又俾人司法覆核，搞串party，影響庫房收少咗！ ##\nRS: 自由黨大少田北俊呼籲官府不要搞掂班保育人士，以免下次賣地嗰陣，又不會被人司法覆核，搞串party，影響庫房收多咗！"
+    },
+    {
+        "raw_news": "正在大陸展開謝票之旅的台灣候任海基會董事長、國民黨副主席江丙坤昨日透露，兩岸正式官方復談的時間，將在520海基會改組後到6月底期間舉行有消息稱，江最快會在5月25日或26日，到北京與大陸國台辦主任陳雲林會晤。",
+        "statement": " 江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行",
+        "filter_flag": "after analyzing the statement, i would say:\n\n江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行\n\n## yes",
+        "full_source": "江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行\n\nsince the statement includes the name \"江丙坤\", it is likely that he said the statement. the verb \"透露\" (reveal) also suggests that the speaker is sharing information, which further supports the idea that it was said by 江丙坤.\n\n江丙坤 ## 江丙坤",
+        "source": " 江丙坤",
+        "generated Q": "江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行嗎？",
+        "generated reverse statement": "江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間不舉行",
+        "generated raw data": "Q: 江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行嗎？ ## S: 江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間舉行 ## RS: 江丙坤透露兩岸正式官方復談時間在520海基會改組後到6月底期間不舉行"
+    },
+    {
+        "raw_news": "【本報訊】基本法委員會副主任梁愛詩和一眾北京官員，近日先後針對本港司法制度大發謬論後，港大法律學院院長陳文敏認為有關舉動，都是出於有關人士對香港的誤解，反映他們對香港的認識仍停留在十多年前，完全未能掌握民情在現屆政府未能取信於民時，中央對港採取強硬舉動只會適得其反，加深港人對政府不信任和不滿記者︰林俊謙",
+        "statement": " 陳文敏認為北京官員對港司法制度的評論都是出於對香港的誤解。",
+        "filter_flag": "i will analyze the statement step by step:\n\n* the statement mentions \"北京官員\" (beijing officials), which implies a political context related to the relationship between hong kong and mainland china.\n* the statement also mentions \"港司法制度\" (hong kong judicial system), which is a sensitive topic in the context of the hong kong protests and the relationship between the hong kong government and the chinese government.\n* the statement implies that the beijing officials have made incorrect or misleading comments about the hong kong judicial system, which could be seen as a criticism of the chinese government's interference in hong kong's affairs.\n\nbased on these factors, i conclude that the statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "陳文敏認為北京官員對港司法制度的評論都是出於對香港的誤解.\n\nthe statement includes the verb \"認為\" (believe), which suggests that 陳文敏 said this statement. ## 陳文敏",
+        "source": " 陳文敏",
+        "generated Q": "陳文敏認為北京官員對港司法制度的評論是出於對香港的誤解嗎？",
+        "generated reverse statement": "陳文敏認為北京官員對港司法制度的評論都是出於對香港的正確理解。",
+        "generated raw data": "Q: 陳文敏認為北京官員對港司法制度的評論是出於對香港的誤解嗎？ ## S: 陳文敏認為北京官員對港司法制度的評論都是出於對香港的誤解。 ## RS: 陳文敏認為北京官員對港司法制度的評論都是出於對香港的正確理解。"
+    },
+    {
+        "raw_news": "【本報訊】前任政務司司長陳方安生指出，功能組別近日傳出，若不投票支持建制派候選人，將遭中聯辦或中方報復或施壓的傳言，她呼籲選民不應受影響而改變投票意向陳太認為，選民若不想中聯辦或中方插手本港選舉，便應該透過手上一票，向施壓的中方人士和單位表達不滿，投票給真正支持民主、為香港做事的候選人。",
+        "statement": " 陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere's the format with the response:\n\n陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓。\n## yes",
+        "full_source": "陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓。\n\nsince the statement includes \"警告\" (warn), it was likely said by 陳方安生. ## 陳方安生",
+        "source": " 陳方安生",
+        "generated Q": "陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓嗎？",
+        "generated reverse statement": "陳方安生警告選民，支持建制派候選人將不會遭中聯辦或中方報復或施壓。",
+        "generated raw data": "Q: 陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓嗎？ \n## S: 陳方安生警告選民，若不支持建制派候選人，將遭中聯辦或中方報復或施壓。\n## RS: 陳方安生警告選民，支持建制派候選人將不會遭中聯辦或中方報復或施壓。"
+    },
+    {
+        "raw_news": "台灣總統陳水扁接受英國《金融時報》專訪時表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣不排除宣布獨立。 國台辦：民間談判直航 陳水扁在訪問中表示，如果中國對台動武，他將放棄「四不一沒有」（不宣布台獨、不變更國號、不進行統獨公投、不將兩國論入憲、沒有廢除國統綱領與國統會的問題）。 陳水扁又聲稱，即使中國在台灣外海試射導彈，「這是一種攻擊」，他不排除會宣布台灣獨立。 ，台灣總統府公共事務室主任黃志芳昨表示，陳水扁只是表達可能性，《金融時報》過度解讀，甚至誤解為是陳主動挑釁兩岸關係。 在北京，國台辦昨發表《以民為本、為民謀利，積極務實地推進兩岸三通》白皮書，堅決反對將兩岸三通說成國與國事務，主張由民間組織，以靈活方式談判兩岸直航。",
+        "statement": " 陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣不排除宣布獨立。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere is the response in the format you requested:\n\n陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣不排除宣布獨立。\n## yes",
+        "full_source": "陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣不排除宣布獨立。\n\nsince the statement starts with \"陳水扁表示\" (said by 陳水扁), it is clear that 陳水扁 is the one who made this statement. the reason is the explicit attribution \"表示\" (said by). ## 陳水扁",
+        "source": " 陳水扁",
+        "generated Q": "陳水扁表示，即使中國在台灣外海試射導彈，台灣是否不排除宣布獨立？",
+        "generated reverse statement": "陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣排除宣布獨立。",
+        "generated raw data": "Q: 陳水扁表示，即使中國在台灣外海試射導彈，台灣是否不排除宣布獨立？ ## S: 陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣不排除宣布獨立。 ## RS: 陳水扁表示，即使中國在台灣外海試射導彈，也算是動用武力，台灣排除宣布獨立。"
+    },
+    {
+        "raw_news": "美國總統喬治布殊周二表態，贊成應對伊拉克前總統侯賽因處以極刑這令美國再次處於與國際社會大多數意見相反的局面，歐洲聯盟、聯合國以至伊拉克的宿敵伊朗，均已先後表明反對判處侯賽因死刑。 伊朗總統反對判死 喬治布殊周二接受美國廣播公司（ABC）訪問時說：「侯賽因對人民犯下罪行，應該將他判處極刑（ultimatepenalty）。他是虐待者，是兇手，他們設有強姦室這個令人討厭的暴君，應接受正義、終極正義的審判。」 但他強調，侯賽因的刑罰「並非由美國總統決定，而是由伊拉克人民自決」。 最新表態反對處死侯賽因的是伊朗總統哈塔米他周三說：「我希望他得到公平審訊，得到公平裁決。」 據美國哥倫比亞廣播公司（CBS）《紐約時報》周二公布最新的民意調查結果，侯賽因落網後，喬治布殊的民望反彈六個百分點，升至五成八，但六成人不覺得美國變得更安全。",
+        "statement": " 美國總統喬治布殊支持判處伊拉克前總統侯賽因死刑。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: 美國總統喬治布殊支持判處伊拉克前總統侯賽因死刑。\n\nresponse: statement: ## yes",
+        "full_source": "美國總統喬治布殊支持判處伊拉克前總統侯賽因死刑。\n\nresponse: the statement, \"美國總統喬治布殊支持判處伊拉克前總統侯賽因死刑\" was said by 喬治布殊. ## 喬治布殊",
+        "source": " 喬治布殊",
+        "generated Q": "美國總統喬治布殊是否支持判處伊拉克前總統侯賽因死刑？",
+        "generated reverse statement": "美國總統喬治布殊反對判處伊拉克前總統侯賽因死刑。",
+        "generated raw data": "Q: 美國總統喬治布殊是否支持判處伊拉克前總統侯賽因死刑？ ## S: 美國總統喬治布殊支持判處伊拉克前總統侯賽因死刑。 ## RS: 美國總統喬治布殊反對判處伊拉克前總統侯賽因死刑。"
+    },
+    {
+        "raw_news": "中美第四次戰略經濟對話昨在美國舉行，中國副總理王岐山與美國財長保爾森共同主持美方最關注人民幣滙率與兩國貿易逆差，中方則注重與美方在能源等合作為安撫美方對巨額貿易逆差的怨言，中方向美方送出136億美元（約1062億港元）「大禮」，簽71項採購及投資項目王岐山表示，希望美國對待貿易投資就像聖路易斯市的大拱門，「只有門框，始終開放，而不是保護主義」。",
+        "statement": " 王岐山希望美國對待貿易投資像聖路易斯市的大拱門，「只有門框，始終開放，而不是保護主義」。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to sensitive political issues. here's my reasoning:\n\n1. the statement mentions \"貿易投資\" (trade and investment), which is a highly sensitive topic in international relations, especially when it comes to china's relations with the united states.\n2. the statement quotes wang qishan, a high-ranking chinese official, which adds to the political sensitivity.\n3. the metaphor of the \"saint louis arch\" (大拱門) is likely intended to convey a message about china's stance on trade and investment, which may be perceived as a commentary on us trade policies.\n\ntherefore, i judge that the statement is related to sensitive political issues.\n\n王岐山希望美國對待貿易投資像聖路易斯市的大拱門，「只有門框，始終開放，而不是保護主義」. ## yes",
+        "full_source": "希望美國對待貿易投資像聖路易斯市的大拱門，「只有門框，始終開放，而不是保護主義」。\n\nsince the statement includes \"希望\" (hope), which is a verb indicating a desire or intention, it is likely that 王岐山 said the statement. ## 王岐山",
+        "source": " 王岐山",
+        "generated Q": "王岐山希望美國對貿易投資的態度像聖路易斯市的大拱門嗎？",
+        "generated reverse statement": "王岐山希望美國對貿易投資採取保護主義態度，「只有門框，始終關閉」。",
+        "generated raw data": "Q: 王岐山希望美國對貿易投資的態度像聖路易斯市的大拱門嗎？ ## S: 王岐山希望美國對待貿易投資像聖路易斯市的大拱門，「只有門框，始終開放，而不是保護主義」。 ## RS: 王岐山希望美國對貿易投資採取保護主義態度，「只有門框，始終關閉」。"
+    },
+    {
+        "raw_news": "美國前副總統戈爾（AlGore）前天（周一）開腔，揚言竭盡所能將民主黨準總統候選人奧巴馬（BarackObama）送入白宮，把總統喬治布殊過去八年來的政策失誤徹底扭轉過來。 戈爾前天在底特律政治集會時，首度公開支持奧巴馬，同時抨擊八年前令他總統夢碎的喬治布殊一系列管治失誤，如發動伊拉克戰爭、讓中國有毒寵物飼料流入美國，違反憲法規定，「經過八年的無能、疏忽、失敗，我們需要改變……即使我們的貓狗都學會，選舉是很重要的」。",
+        "statement": " 戈爾公開支持奧巴馬，抨擊布殊八年來的政策失誤。",
+        "filter_flag": "let's analyze the statement:\n\n\"戈爾公開支持奧巴馬，抨擊布殊八年來的政策失誤。\"\n\nhere's the step-by-step analysis:\n\n1. the statement mentions specific individuals: 戈爾 (gore), 奧巴馬 (obama), and 布殊 (bush). this suggests that the statement is related to political figures.\n2. the statement mentions \"支持\" (support) and \"抨擊\" (criticize), which implies that the statement is expressing an opinion or criticism about a political figure or their policies.\n3. the statement specifically mentions \"八年來的政策失誤\" (eight years of policy mistakes), which implies that the statement is criticizing the policies of a specific administration.\n\nbased on this analysis, i conclude that the statement is related to a sensitive political issue. therefore, the answer is:\n\n戈爾公開支持奧巴馬，抨擊布殊八年來的政策失誤。 ## yes",
+        "full_source": "戈爾公開支持奧巴馬，抨擊布殊八年來的政策失誤。\n\nsince the statement includes the verb \"公開支持\" (publicly support), which indicates that someone is expressing their opinion or stance, it is likely that 戈爾 (gore) said this statement. ## 戈爾",
+        "source": " 戈爾",
+        "generated Q": "戈爾是否公開支持奧巴馬？",
+        "generated reverse statement": "戈爾公開抨擊奧巴馬，支持布殊八年來的政策。",
+        "generated raw data": "Q: 戈爾是否公開支持奧巴馬？ ## S: 戈爾公開支持奧巴馬，抨擊布殊八年來的政策失誤。 ## RS: 戈爾公開抨擊奧巴馬，支持布殊八年來的政策。"
+    },
+    {
+        "raw_news": "荷蘭極右國會議員維爾德斯（GeertWilders）不理勸阻和警告，前日（周四）在網上公開他的反回教短片事先張揚的宗教炸彈投下，多個回教國家強列抗議。",
+        "statement": " 荷蘭極右國會議員維爾德斯公開反回教短片，多個回教國家強列抗議。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: 荷蘭極右國會議員維爾德斯公開反回教短片，多個回教國家強列抗議。\n\nresponse: statement: ## yes",
+        "full_source": "維爾德斯公開反回教短片，多個回教國家強列抗議。\n\nsince the statement includes the name \"維爾德斯\" and the verb \"公開\" (openly), it is likely that維爾德斯 said the statement. ## 維爾德斯",
+        "source": " 維爾德斯",
+        "generated Q": "荷蘭極右國會議員維爾德斯公開反回教短片是否受到多個回教國家的強烈抗議？",
+        "generated reverse statement": "荷蘭極右國會議員維爾德斯公開反回教短片，多個回教國家並沒有強烈抗議。",
+        "generated raw data": "Q: 荷蘭極右國會議員維爾德斯公開反回教短片是否受到多個回教國家的強烈抗議？ ## S: 荷蘭極右國會議員維爾德斯公開反回教短片，多個回教國家強列抗議。 ## RS: 荷蘭極右國會議員維爾德斯公開反回教短片，多個回教國家並沒有強烈抗議。"
+    },
+    {
+        "raw_news": "馬英九昨日坦承，大女兒馬唯中擁有美國國籍，因為她是在美國出生，但強調女兒同時擁有中華民國護照，「她還是中華民國人，除不能選舉外，其他事情都可以做」；小女兒馬元中是在台灣出生，「根本就沒有綠卡，從來就沒有申請，也沒得到過。」 馬英九的兩個女兒分別是28歲的馬唯中和23歲的馬元中馬唯中畢業於美國哈佛大學，目前在美國從事展覽籌備等工作身高172米的她皮膚白淨，氣質優雅，待人接物得體，即便是回台投票被媒體追訪，也是落落大方有媒體形容她很像南韓明星李英愛，也有指她像台灣明星劉若英。",
+        "statement": " 馬英九坦承大女兒擁有美國國籍，但強調她同時擁有中華民國護照。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n馬英九坦承大女兒擁有美國國籍，但強調她同時擁有中華民國護照。\n\n## yes",
+        "full_source": "馬英九坦承大女兒擁有美國國籍，但強調她同時擁有中華民國護照。\n\nsince the statement includes the verb \"坦承\" (confess), which implies that the speaker is sharing personal information, it is likely that the statement was said by 馬英九 himself. ## 馬英九",
+        "source": " 馬英九",
+        "generated Q": "馬英九坦承大女兒擁有美國國籍嗎？",
+        "generated reverse statement": "馬英九否認大女兒擁有美國國籍。",
+        "generated raw data": "Q: 馬英九坦承大女兒擁有美國國籍嗎？ ## S: 馬英九坦承大女兒擁有美國國籍，但強調她同時擁有中華民國護照。 ## RS: 馬英九否認大女兒擁有美國國籍。"
+    },
+    {
+        "raw_news": "國民黨昨日舉行黨主席補選，67歲的前副主席吳伯雄以156萬高票，高達八成六的得票率，壓倒性擊敗僅取得2萬多票的對手洪秀柱當選吳伯雄稱，未來將會以大公無私的態度促進黨內團結，投票期間有不少老黨員，因未有繳交黨費無資格投票，在票站內大吵大鬧，還踢枱抗議。 今次國民黨主席補選，由於黨中央規定黨員須繳交每年200元新台幣（約47港元）黨費，才能享有黨員權利，令具資格投票的黨員由前年的110萬大幅減至33萬，有18萬人投票，投票率達5375%。投票在下午4時結束後隨即點票，由於吳票數一直大幅領先，洪在開票尚未結束前即承認落敗，並祝賀對方當選。 吳伯雄隨後發表感言指，當選黨主席是千斤重擔開始，他會以大公無私態度促進黨內團結，推出最有勝選可能的總統與立委參選人。 國民黨榮譽主席連戰、前黨主席馬英九昨晨先後前往台北市的票站投票馬重申，如在初選中，取得黨內競選總統的提名，他將履行承諾，優先邀請立法院院長王金平當副手。",
+        "statement": " 吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結。",
+        "filter_flag": "let's break down the statement:\n\n* \"吳伯雄以壓倒性票數當選國民黨主席\" - this part is just stating a fact, the election result of a specific person.\n* \"承諾以大公無私態度促進黨內團結\" - this part is the promise made by 吳伯雄, stating his intention to promote unity within the party.\n\nconsidering the context, i would say that this statement is related to a sensitive political issue.\n\ntherefore, the answer is:\n\n吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結 ## yes",
+        "full_source": "the statement is:\n\n吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結。\n\nsince the statement includes \"承諾\" (promise), it is likely that 吳伯雄 said this statement. ## 吳伯雄",
+        "source": " 吳伯雄",
+        "generated Q": "吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結嗎？",
+        "generated reverse statement": "吳伯雄以壓倒性票數當選國民黨主席，但沒有承諾以大公無私態度促進黨內團結。",
+        "generated raw data": "Q: 吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結嗎？ \n## S: 吳伯雄以壓倒性票數當選國民黨主席，承諾以大公無私態度促進黨內團結。\n## RS: 吳伯雄以壓倒性票數當選國民黨主席，但沒有承諾以大公無私態度促進黨內團結。"
+    },
+    {
+        "raw_news": "【本報訊】梁愛詩向法律界及香港法官開炮，更以自己有「言論自由」反擊大律師公會及律師會批評；不少政界人士認為，梁炮打香港法官並非「講大咗」，有可能是北京某些人授意向法律界及法官傳達訊息，「提醒」他們不要忘記國家副主席習近平提出的「三權合作論」，司法要和行政、立法機關「合作」的要求國家副主席習近平在08年7月訪港時，與特區主要官員、立法會主席范徐麗泰，以及當時的終審法院首席法官李國能會面，提出三權合作論，要求管治班子應「通情達理、團結高效」，行政、立法及司法機關要互相支持有政界人士指出，雖然終審法院前首席法官李國能於2010年退休前公開反駁三權合作論，「提醒」關心香港事務的人，不應以其他地方模式強加於香港，但北京至今仍有意見認同三權合作論該政界人士直言，梁愛詩曾代表中央與民主黨就政改談判，她發表的肯定不是「個人意見」如此簡單，「明顯要佢（梁愛詩）用個人身份，提醒法官唔好忘記習近平提出，司法要同行政機關合作嘅要求。」",
+        "statement": " 梁愛詩炮打香港法官，認為她發表的言論不是「個人意見」，而是要「提醒法官唔好忘記習近平提出，司法要同行政機關合作嘅要求。",
+        "filter_flag": "i will analyze the statement step by step to determine if it is related to a sensitive political issue.\n\nthe statement mentions:\n\n* 香港法官 (hong kong judge)\n* 習近平 (xi jinping, the president of china)\n* 司法 (judiciary)\n* 行政機關 (administrative authority)\n\nconsidering these elements, i believe the statement is related to a sensitive political issue.\n\ntherefore, my answer is:\n\n梁愛詩炮打香港法官，認為她發表的言論不是「個人意見」，而是要「提醒法官唔好忘記習近平提出，司法要同行政機關合作嘅要求。 ## yes",
+        "full_source": "according to the statement, \"認為\" (believe) is used, which is an indicator that suggests someone is expressing their opinion. therefore, the source of the statement is:\n\n認為不是「個人意見」，而是要「提醒法官唔好忘記習近平提出，司法要同行政機關合作嘅要求」. ## 梁愛詩",
+        "source": " 梁愛詩",
+        "generated Q": "梁愛詩認為香港法官的言論是否是「個人意見」？",
+        "generated reverse statement": "梁愛詩認為香港法官的言論是「個人意見」，法官有權發表自己的看法。",
+        "generated raw data": "Q: 梁愛詩認為香港法官的言論是否是「個人意見」？ ## S: 梁愛詩炮打香港法官，認為她發表的言論不是「個人意見」，而是要「提醒法官唔好忘記習近平提出，司法要同行政機關合作嘅要求。 ## RS: 梁愛詩認為香港法官的言論是「個人意見」，法官有權發表自己的看法。"
+    },
+    {
+        "raw_news": "前律政司今基本法委員會副會長梁愛詩，在專業進修學院演講中炮轟本港的法律界及法官，內容只能用令人震驚來形容李柱銘認為是回歸前後法律界名人對香港人一向重視並致力捍衛的法治精神炮轟的第一人梁愛詩為什麼如此神勇到不留餘地的攻擊她的法律界同行，因為有許多判決不符合她的期望，更不符合北大人的期望，香港的法律對人民有保障，對弱勢的群體有保障，而中國大陸的法律只保障位高權重或有特殊背景的人士，這些不用我在此明確舉例說明吧從最近的一些公開審判中，已經可以看出，在當地發生的案子，要選擇其他縣份宣判；與涉案有關的人士要與主犯分割，即主犯從犯要分割，還要上下分割，避重就輕，千絲萬縷的犯罪集團可以抽絲剝繭到草草了事就結案，衙門八字開，無權無錢無背景莫進來，一進來就是死路一條，說真的再過多少年這樣的審案公式也改不了中國的確有許多法律專家，還有什麼幾大護法，專家們護的是什麼法？不過是御用律師而已，可以扭曲法律條文為虎作倀，把良心道義與專業知識丟在一旁，梁愛詩曾在香港貴為律政司，，只不過身為基本法委員會副主任，竟不為港人着想，不顧法律精神與自己的專業，硬將應該維護的法律與政治掛帥，不顧基本法究竟能保護市民多少，只顧身為欽點愛將，說主人要她說的話，還要以惡法來控制港人，怪不得她一直主張釋法，釋什麼，討主子歡心而已，這值得嗎？",
+        "statement": " 梁愛詩指出香港的法律對人民有保障，對弱勢的群體有保障，而中國大陸的法律只保障位高權重或有特殊背景的人士。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: 梁愛詩指出香港的法律對人民有保障，對弱勢的群體有保障，而中國大陸的法律只保障位高權重或有特殊背景的人士。\n\nresponse: statement: ## yes",
+        "full_source": "梁愛詩认为香港的法律对人民有保障，对弱势的群体有保障，而中国大陆的法律只保障位高权重或有特殊背景的人士。\n\nsince the statement includes \"认为\" (believe), it was likely said by 梁愛詩. ## 梁愛詩",
+        "source": " 梁愛詩",
+        "generated Q": "梁愛詩認為香港和中國大陸的法律對人民的保障是否相同？",
+        "generated reverse statement": "梁愛詩認為香港和中國大陸的法律對人民的保障是相同的，香港的法律只保障位高權重或有特殊背景的人士，而中國大陸的法律對人民和弱勢的群體都有保障。",
+        "generated raw data": "Q: 梁愛詩認為香港和中國大陸的法律對人民的保障是否相同？ ## S: 梁愛詩指出香港的法律對人民有保障，對弱勢的群體有保障，而中國大陸的法律只保障位高權重或有特殊背景的人士。 ## RS: 梁愛詩認為香港和中國大陸的法律對人民的保障是相同的，香港的法律只保障位高權重或有特殊背景的人士，而中國大陸的法律對人民和弱勢的群體都有保障。"
+    },
+    {
+        "raw_news": "【本報訊】早前有反水客示威者被控以胸襲警，暫委裁判官陳碧橋判襲警罪成，引起社會關注退休高等法院法官王式英接受網媒訪問，直言北京及港府正影響香港司法獨立，又批評司法機構大量聘用暫委法官，斥嚴重損害司法獨立王式英接受《立場新聞》訪問，直言北京在港影響力越來越大，特別在港大任命副校長風波後，若學術自由也受威脅，「為甚麼司法還能獨立？」王又批評袁國強去年為一國兩制白皮書護航，在政改立場上與許多司法界人士意見各走極端，質疑袁公信力。",
+        "statement": " 王式英：北京及港府正影響香港司法獨立。",
+        "filter_flag": "to determine if the statement is related to a sensitive political issue, i will analyze the content step by step.\n\nthe statement is: 王式英：北京及港府正影響香港司法獨立。\n\nthe key words in this statement are:\n\n* 北京 (beijing) - refers to the chinese government\n* 港府 (hong kong government) - refers to the hong kong special administrative region government\n* 司法獨立 (judicial independence) - a sensitive topic in hong kong politics\n\nthe statement implies that the chinese government and the hong kong government are interfering with the judicial independence of hong kong, which is a sensitive political issue.\n\ntherefore, the answer is:\n\n王式英：北京及港府正影響香港司法獨立。 ## yes",
+        "full_source": "王式英：北京及港府正影響香港司法獨立。\n\nthe statement includes the name \"王式英\", which is a clear indicator that the statement was said by 王式英. ## 王式英",
+        "source": " 王式英",
+        "generated Q": "王式英是否認為北京及港府正影響香港司法獨立？",
+        "generated reverse statement": "王式英：北京及港府不影響香港司法獨立。",
+        "generated raw data": "Q: 王式英是否認為北京及港府正影響香港司法獨立？ ## S: 王式英：北京及港府正影響香港司法獨立。 ## RS: 王式英：北京及港府不影響香港司法獨立。"
+    },
+    {
+        "raw_news": "剛於昨日登上國民黨主席寶座的台北市長馬英九，矢言要帶領國民黨在二○○八年重奪台灣政權環顧目前執政的民進黨內芸芸政治明星，屆時馬英九若代表國民黨出選總統的話，其最可能的對手分別是謝長廷、蘇貞昌和呂秀蓮當中，被譽為民進黨「智多星」的謝長廷資歷深厚。 早在九八年，謝長廷已挾強大的民意當選高雄市長，其後擔任了兩年民進黨主席，目前佔據着「進可攻，退可守」的行政院長要職另方面，蘇貞昌在台北縣長任上亦表現突出，加上近年在大台北地區默默經營，已累積了不少政治資本，也不排除呂秀蓮在○八年代表民進黨與馬英九一較高下。",
+        "statement": " 馬英九矢言要帶領國民黨在二○○八年重奪台灣政權",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n馬英九矢言要帶領國民黨在二○○八年重奪台灣政權\n\nstatement: ## yes",
+        "full_source": "馬英九矢言要帶領國民黨在二○○八年重奪台灣政權\n\nsince the statement includes \"矢言\" (said), which is a verb indicating that someone has spoken, and specifically mentions 馬英九 (ma ying-jeou), it is likely that 馬英九 said this statement. ## 馬英九",
+        "source": " 馬英九",
+        "generated Q": "馬英九是否矢言要帶領國民黨在二○○八年重奪台灣政權？",
+        "generated reverse statement": "馬英九從來沒有矢言要帶領國民黨在二○○八年重奪台灣政權",
+        "generated raw data": "Q: 馬英九是否矢言要帶領國民黨在二○○八年重奪台灣政權？ ## S: 馬英九矢言要帶領國民黨在二○○八年重奪台灣政權 ## RS: 馬英九從來沒有矢言要帶領國民黨在二○○八年重奪台灣政權"
+    },
+    {
+        "raw_news": "【本報訊】特首梁振英昨日出席行會前聲言，全國人大委員長張德江上星期訪港期間出席歡迎晚宴前的聚會，是由他向中央提出，獲中央同意後，立法會議員才有機會和張德江直接交流，為泛民與張德江會面「邀功」。",
+        "statement": " 梁振英認為，張德江訪港期間，立法會議員需要中央同意才能與他直接交流。",
+        "filter_flag": "to determine if the statement is related to a sensitive political issue, i'll break it down step by step:\n\n1. the statement mentions \"張德江\" (zhang dejiang), who is a high-ranking official in the chinese communist party.\n2. the statement also mentions \"訪港\" (visiting hong kong), which is a sensitive topic in the context of hong kong politics.\n3. the statement further mentions \"立法會議員\" (legislative council members) and \"中央同意\" (central government approval), which implies that the statement is discussing the relationship between the hong kong government and the central government.\n\nconsidering these factors, i conclude that the statement is related to a sensitive political issue.\n\nstatement: 梁振英認為，張德江訪港期間，立法會議員需要中央同意才能與他直接交流。\n\nresponse: statement: ## yes",
+        "full_source": "認為\n\n## 梁振英",
+        "source": " 梁振英",
+        "generated Q": "梁振英認為，立法會議員需要中央同意才能與張德江直接交流嗎？",
+        "generated reverse statement": "梁振英認為，張德江訪港期間，立法會議員不需要中央同意才能與他直接交流。",
+        "generated raw data": "Q: 梁振英認為，立法會議員需要中央同意才能與張德江直接交流嗎？ ## S: 梁振英認為，張德江訪港期間，立法會議員需要中央同意才能與他直接交流。 ## RS: 梁振英認為，張德江訪港期間，立法會議員不需要中央同意才能與他直接交流。"
+    },
+    {
+        "raw_news": "【小知識】中國本應於今年12月獲得世貿組織（WTO）下的「市場經濟地位」，但歐洲議會本月12日拒承認中國市場經濟地位，惹來中國外交部長王毅一句「請遵守承諾」。對中國而言，市場經濟地位到底有多重要？",
+        "statement": " 王毅：中國對市場經濟地位的重要性在於「請遵守承諾」。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nstatement: 王毅：中國對市場經濟地位的重要性在於「請遵守承諾」。\n\nresponse: statement: ## yes",
+        "full_source": "王毅：中國對市場經濟地位的重要性在於「請遵守承諾」。\n\nsince the statement includes the name \"王毅\", it is likely that he said it. the verb \"在於\" (is) does not provide clear indication of who said it, but the name \"王毅\" suggests that he is the source of the statement.\n\n王毅 ## 王毅",
+        "source": " 王毅",
+        "generated Q": "王毅強調中國對市場經濟地位的重要性是什麼？",
+        "generated reverse statement": "王毅：中國對市場經濟地位的重要性在於「不需要遵守承諾」。",
+        "generated raw data": "Q: 王毅強調中國對市場經濟地位的重要性是什麼？ ## S: 王毅：中國對市場經濟地位的重要性在於「請遵守承諾」。 ## RS: 王毅：中國對市場經濟地位的重要性在於「不需要遵守承諾」。"
+    },
+    {
+        "raw_news": "雖然財政司司長曾俊華唔認，但佢疑似被跣之後，特首梁振英噚日居然話「不至到要拒絕（正被覆核的）呢4位議員嘅提問」，仲話「我哋好重視行政立法關係」。原來越接近特首選舉，CY就會變得越詼諧，連呢啲說話都講得出，但其實又有乜咁出奇……5年前嘅《星島日報》喺狙擊CY方面不遺餘力，甚至派出女記者出擊搞到CY嬲嬲豬，除咗鬧爆女記者做法令佢尷尬，仲話希望選舉係君子之爭云云但佢5年前今日就改口話自己唔係針對前線記者，相信對方只係進行被要求嘅工作，而佢係主動受訪喎睇番當年吖，佢被追訪時根本冇答問題，何來主動受訪？反而唐唐做慣官、老早適應被追問，5年前今日話「記者要大聲發問，係因為經常會有好多人同時發問，如果唔夠大聲，受訪者就聽唔到問題」。雖然有人笑唐唐係豬，但至少講人話。",
+        "statement": " 梁振英話「不至到要拒絕（正被覆核的）呢4位議員嘅提問」，仲話「我哋好重視行政立法關係。」",
+        "filter_flag": "let's analyze the statement step by step:\n\n1. the statement mentions \"4位議員\" (4 legislators), which implies a specific group of individuals.\n2. the statement mentions \"覆核\" (review or scrutiny), which is a common term in hong kong politics, often related to the legislative council (legco) and the chief executive.\n3. the statement mentions \"拒絕\" (refuse), which implies a potential conflict or disagreement between the chief executive and the legislators.\n4. the statement mentions \"行政立法關係\" (administrative-legislative relationship), which is a sensitive topic in hong kong politics, as it involves the relationship between the chief executive and the legco.\n\nconsidering these points, i would conclude that the statement is related to a sensitive political issue.\n\nso, the answer is:\n\n梁振英話「不至到要拒絕（正被覆核的）呢4位議員嘅提問」，仲話「我哋好重視行政立法關係。」\n\n## yes",
+        "full_source": "the statement is \"梁振英話「不至到要拒絕（正被覆核的）呢4位議員嘅提問」，仲話「我哋好重視行政立法關係。」\n\nthe statement includes the verb \"話\" (said), which indicates that someone named 梁振英 said this statement. therefore, the source of the statement is:\n\n梁振英 ## 梁振英",
+        "source": " 梁振英",
+        "generated Q": "梁振英是否會拒絕正被覆核的議員提問？",
+        "generated reverse statement": "梁振英一定會拒絕正被覆核的議員提問。",
+        "generated raw data": "Q: 梁振英是否會拒絕正被覆核的議員提問？ ## S: 梁振英話「不至到要拒絕（正被覆核的）呢4位議員嘅提問」，仲話「我哋好重視行政立法關係。」 ## RS: 梁振英一定會拒絕正被覆核的議員提問。"
+    },
+    {
+        "raw_news": "台灣民進黨主席蔡英文昨接受《蘋果》專訪時指出，過去民進黨只要敗選，黨主席就必須下台負責，「這個黨過去換了幾個黨主席？為何黨今天弱化成這樣？就是太多人以單一事件論成敗」。她半開玩笑地說，萬一明年縣市長敗選，她可能不會下台，「我可能是那個霸着位置不放，不肯下台，要維持這個黨的持續性」。 民進黨主席一向有為大型選舉敗選而引咎辭職的慣例，但蔡英文認為，這項傳統雖表現出主席的決心，「對政治人物來說風險很大，對政黨來說沒甚麼意義」。她表示，現在只想把民進黨穩住，明年敗選不一定辭職，，「每個階段可能有不一樣的領導人，該退場就要退場。」",
+        "statement": " 蔡英文認為民進黨主席不一定要因為敗選而引咎辭職。",
+        "filter_flag": "i will analyze the statement step by step.\n\nthe statement mentions \"蔡英文\" (tsai ing-wen), who is the current president of the republic of china (taiwan). the statement also mentions \"民進黨\" (democratic progressive party, dpp), which is the ruling party in taiwan.\n\nthe statement is about the resignation of the dpp chairperson, which is a sensitive political issue in taiwan. the fact that the statement is about the opinion of the president of taiwan makes it even more sensitive.\n\ntherefore, i conclude that the statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "蔡英文認為民進黨主席不一定要因為敗選而引咎辭職。\n\nsince the statement includes \"認為\" (believe), it was likely said by 蔡英文. ## 蔡英文",
+        "source": " 蔡英文",
+        "generated Q": "蔡英文認為民進黨主席因為敗選是否一定要引咎辭職？",
+        "generated reverse statement": "蔡英文認為民進黨主席一定要因為敗選而引咎辭職。",
+        "generated raw data": "Q: 蔡英文認為民進黨主席因為敗選是否一定要引咎辭職？ ## S: 蔡英文認為民進黨主席不一定要因為敗選而引咎辭職。 ## RS: 蔡英文認為民進黨主席一定要因為敗選而引咎辭職。"
+    }
+]

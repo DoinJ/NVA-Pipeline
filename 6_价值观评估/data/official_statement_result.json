@@ -1,0 +1,402 @@
+[
+    {
+        "raw_news": "不能對公務員過橋抽板。 中英談判期間的一個共識是平穩過渡，這是首要目標但如何才能達致目標呢？若設計不周全，香港就會亂、會崩潰，一旦崩潰，就無法重新整合起來了，其他問題可以遷就一點，總要做到平穩過渡。 當年民主派人士的願望是港府「還政於民」││把殖民地政府的權力交出來，交還市民的手裏，建立民主政制，市民用十二年熟習了新制度，九七後真的只需換一面旗。 後來當然做不到了，一九八二、八三年的中共，根本沒可能答應於是就主力研究鞏固公務員體制，作為平穩過渡的中流砥柱，最擔心前途的自然也是公務員但公務員條件好，最有資格移民，若因前途不明朗而提早離去，不但港府很快會變成「跛腳鴨」，陷入癱瘓，將來九七後上場的特區班子，也不知如何能治理香港。 於是中英談判的一個重要條款就是對公務員的保證，包括薪酬待遇和服務條件不會變差、退休金全部得到保證中方並不是很樂意這樣做的，認為不但薪酬過高，而且福利尤其令他們咋舌，在平穩過渡的大前提之下，終於慨然承諾九○年代公務員成了天之驕子，是有原因的而回歸大典，布政司陳方安生的特殊顯眼地位，正是以她是公務員之首象徵所得到的尊重。 現在平穩過渡完成了，中央和特區政府都肉刺起來，要找方法削一削，連退休金也不大願照付了經濟背後，有歷史和政治因素，所以本來簡單的事就不能不化為複雜。",
+        "statement": " The transition is completed, and the central and special administrative regions' governments are eager to find ways to reduce their benefits, including retirement pensions.",
+        "filter_flag": "based on the statement, i would say:\n\nthe transition is completed, and the central and special administrative regions' governments are eager to find ways to reduce their benefits, including retirement pensions.\n\n## yes",
+        "full_source": "the transition is completed, and the central and special administrative regions' governments are eager to find ways to reduce their benefits, including retirement pensions.\n\nthere's no information about the speaker of this sentence. ## unknown",
+        "source": " unknown",
+        "generated Q": "中央和特區政府是否正在尋找減少福利的方法，包括退休金？",
+        "generated reverse statement": "中央和特區政府並沒有尋找減少福利的方法，包括退休金。",
+        "generated raw data": "Q: 中央和特區政府是否正在尋找減少福利的方法，包括退休金？ ## S: The transition is completed, and the central and special administrative regions' governments are eager to find ways to reduce their benefits, including retirement pensions. ## RS: 中央和特區政府並沒有尋找減少福利的方法，包括退休金。"
+    },
+    {
+        "raw_news": "【本報訊】在民主派候任立法會議員施壓下，政制發展專責小組終於決定把小組第三號報告的公眾諮詢期，由原訂的本月底延長兩周至下月十五日結束。《基本法》45條關注組候任議員湯家驊稱，期望民主派下周可開會就政改方案達成原則性共識，相信稍後公布的第四號報告書不會提出具體方案諮詢公眾，仍停留在「海闊天空泛泛而談階段。」 多名民主派候任議員先後向特首董建華及政務司司長曾蔭權要求延長諮詢期，曾蔭權昨日宣布將諮詢期延長兩周至十月中，可讓新任議員在當選後能夠有多一個月時間整理對政改的意見，預算在今年秋季發表第四號報告。 余若薇：唔湯唔水 民主派不滿意港府決定，湯家驊稱有官員透露今秋公布的第四號報告「冇乜料到」，港府不會提出具體政改方案諮詢公眾，他憂慮港府日後會突然提出方案，屆時可能大局已定他說，希望民主派下星期可開會，期望可達成一些原則性共識，如反對增加功能議席；廢除公司、團體票及選舉委員會引入直選成份他稱現時目標仍是爭取○七、○八年雙普選，但若此路不通應考慮其他市民可接受的方案。 另一候任議員余若薇指延長諮詢期兩周「唔湯唔水」，因新一屆議員當選後忙於設立辦事處，民主派至今未有機會共商政改問題，而因應近期局勢發展，相信民主派會有不少補充意見提交。",
+        "statement": " 湯家驊：希望民主派下星期可開會，期望可達成一些原則性共識，如反對增加功能議席；廢除公司、團體票及選舉委員會引入直選成份。",
+        "filter_flag": "based on the statement, i would say:\n\n湯家驊：希望民主派下星期可開會，期望可達成一些原則性共識，如反對增加功能議席；廢除公司、團體票及選舉委員會引入直選成份。\n\nstatement: ## yes",
+        "full_source": "湯家驊：希望民主派下星期可開會，期望可達成一些原則性共識，如反對增加功能議席；廢除公司、團體票及選舉委員會引入直選成份。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "湯家驊是否希望民主派下星期可開會？",
+        "generated reverse statement": "湯家驊：希望民主派下星期不開會，期望無法達成一些原則性共識，如增加功能議席；保留公司、團體票及選舉委員會不引入直選成份。",
+        "generated raw data": "Q: 湯家驊是否希望民主派下星期可開會？ ## S: 湯家驊：希望民主派下星期可開會，期望可達成一些原則性共識，如反對增加功能議席；廢除公司、團體票及選舉委員會引入直選成份。 ## RS: 湯家驊：希望民主派下星期不開會，期望無法達成一些原則性共識，如增加功能議席；保留公司、團體票及選舉委員會不引入直選成份。"
+    },
+    {
+        "raw_news": "美國大選臨近，總統喬治布殊的支持率仍領先對手克里，為增加選民對共和黨的凝聚力，喬治布殊助選團想出新點子，要想參加他集會的人，必須先做義工替他拉票。 任何人想出席喬治布殊的競選集會，都必須先取得門券他的助選團現在多加一項要求，就是若要取得門券，必須幫手致電共和黨人家裏游說，或在草坪架起標語牌。 克里助手：挾持人質 克里助手嘲諷此舉名義上是邀請觀眾，實際上是「挾持人質」，強調民主黨「毋須人們宣誓效忠，不會挾持別人作人質」。 耶魯大學政治科學系教授格林則說，喬治布殊助選團的做法，使本來不是其擁躉的人，不斷替他打游說電話，最終起着支持他的潛移默化作用。 美國有線新聞網絡最新民調顯示，在距大選日三十三天，喬治布殊支持率是五成二，領先克里八個百分點。 美國《紐約時報》/美國有線新聞網絡",
+        "statement": " 喬治布殊助選團的做法，使本來不是其擁躉的人，不斷替他打游說電話，最終起着支持他的潛移默化作用。",
+        "filter_flag": "after analyzing the statement, i found that it is related to sensitive political issues. the statement mentions \"喬治布殊\" (george bush), which is likely referring to the former us president george w. bush, and \"助選團\" (campaign team), which implies political campaigning. the statement also mentions \"打游說電話\" (making phone calls to persuade), which suggests that the campaign team was trying to influence people's opinions.\n\ntherefore, i conclude that the statement is related to sensitive political issues.\n\n喬治布殊助選團的做法，使本來不是其擁躉的人，不斷替他打游說電話，最終起着支持他的潛移默化作用。 ## yes",
+        "full_source": "喬治布殊助選團的做法，使本來不是其擁躉的人，不斷替他打游說電話，最終起着支持他的潛移默化作用。\n\nthe statement lacks clear indicators or attribution, so the source is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "喬治布殊助選團的做法是否使本來不是其擁躉的人不斷替他打游說電話？",
+        "generated reverse statement": "喬治布殊助選團的做法，不使本來不是其擁躉的人不斷替他打游說電話，反而使他們對他產生了反感。",
+        "generated raw data": "Q: 喬治布殊助選團的做法是否使本來不是其擁躉的人不斷替他打游說電話？ ## S: 喬治布殊助選團的做法，使本來不是其擁躉的人，不斷替他打游說電話，最終起着支持他的潛移默化作用。 ## RS: 喬治布殊助選團的做法，不使本來不是其擁躉的人不斷替他打游說電話，反而使他們對他產生了反感。"
+    },
+    {
+        "raw_news": "老董果然鴻運當頭，前日俾手拉炮誤傷，噚日港大民意網站調查就顯示佢民望上升到五十分合格水平，唔知係咪心情好，老董噚晚湊埋三個孫女去全港第一賞月勝地山頂賞月，一老三少共聚天倫，真係溫馨。 老董官邸喺半山嘉慧園，照計都係賞月好地點，不過佢住低層，可能嫌喺屋企賞月唔夠正，就趁住民望回升之際浦頭親民，如果喺民望低點時現身，就真係掃晒其他市民雅興嘞。 （圖）老董帶住三位精靈可愛嘅孫女到山頂賞月。 政府新聞處圖片",
+        "statement": " 老董的民望上升到五十分合格水平，可能是因為心情好。",
+        "filter_flag": "let's break down the statement:\n\n* \"老董\" is likely a reference to a specific political figure, possibly a high-ranking official or a leader.\n* \"民望\" refers to public opinion or popularity.\n* \"上升到五十分合格水平\" means that the public opinion or popularity has reached a certain level (50% or above).\n\nconsidering the context and the language used, i would categorize this statement as:\n\nstatement: ## yes",
+        "full_source": "老董的民望上升到五十分合格水平，可能是因為心情好。\n\nsince there are no clear indicators within the statement that suggest who might have said it, the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "老董的民望是否上升到五十分合格水平？",
+        "generated reverse statement": "老董的民望沒有上升到五十分合格水平，老董的民望下降是因為心情不好。",
+        "generated raw data": "Q: 老董的民望是否上升到五十分合格水平？ ## S: 老董的民望上升到五十分合格水平，可能是因為心情好。 ## RS: 老董的民望沒有上升到五十分合格水平，老董的民望下降是因為心情不好。"
+    },
+    {
+        "raw_news": "今年大選，除了兩大候選人，還有獨立候選人，當中包括捲土重來的納德（RalphNader）。他說，上周六他在麻省21個社區，合共發表了至少255分鐘演說，足以刷新單日發表最多競選演說的紀錄，可列入《健力士世界紀錄大全》。 74歲的納德已連續第四次參加大選，今年他的名字會出現在45個州的選票上，民調顯示他的支持率只有單位數字，但他希望透過在麻省巡迴拉票，說服更多選民支持他，令他成為一股強大的「第三政治勢力」。",
+        "statement": " 納德希望透過在麻省巡迴拉票，說服更多選民支持他，令他成為一股強大的「第三政治勢力」。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to sensitive political issues.\n\nstatement: 約德希望透過在麻省巡迴拉票，說服更多選民支持他，令他成為一股強大的「第三政治勢力」。\n\nresponse: statement: ## yes",
+        "full_source": "納德希望透過在麻省巡迴拉票，說服更多選民支持他，令他成為一股強大的「第三政治勢力」.\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "納德是否希望透過在麻省巡迴拉票，說服更多選民支持他？",
+        "generated reverse statement": "納德並不希望透過在麻省巡迴拉票，說服更多選民支持他，反而是想繼續維持現有的政治勢力。",
+        "generated raw data": "Q: 納德是否希望透過在麻省巡迴拉票，說服更多選民支持他？ ## S: 納德希望透過在麻省巡迴拉票，說服更多選民支持他，令他成為一股強大的「第三政治勢力」。 ## RS: 納德並不希望透過在麻省巡迴拉票，說服更多選民支持他，反而是想繼續維持現有的政治勢力。"
+    },
+    {
+        "raw_news": "曾經否認南京大屠殺和參拜靖國神社的日本首相麻生太郎，前日（周六）接受中國中央電視台訪問時，對日本的殖民統治和侵略，「深刻反省和由衷的歉意」。",
+        "statement": " 麻生太郎表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n麻生太郎表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」 ## yes",
+        "full_source": "麻生太郎表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」。\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "麻生太郎是否表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」？",
+        "generated reverse statement": "麻生太郎從來沒有表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」。",
+        "generated raw data": "Q: 麻生太郎是否表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」？ ## S: 麻生太郎表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」。 ## RS: 麻生太郎從來沒有表達對日本殖民統治和侵略的「深刻反省和由衷的歉意」。"
+    },
+    {
+        "raw_news": "‧以軍炸耶穌在伯利恒的出生地「主誕堂」後門，向內開火。 ‧伯利恒局勢緊張，美國及意大利急忙撤僑。 ‧以軍在西岸的軍事行動至今已攻下八個巴人城鎮。 ‧美國在外交上日漸孤立，突改變立場，將直接介入以巴衝突。",
+        "statement": " 美國將直接介入以巴衝突。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n美國將直接介入以巴衝突。 ## yes",
+        "full_source": "美國將直接介入以巴衝突。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "美國是否將直接介入以巴衝突？",
+        "generated reverse statement": "美國將不會直接介入以巴衝突。",
+        "generated raw data": "Q: 美國是否將直接介入以巴衝突？ ## S: 美國將直接介入以巴衝突。 ## RS: 美國將不會直接介入以巴衝突。"
+    },
+    {
+        "raw_news": "耶穌在伯利恒的出生地「主誕堂」（ChurchoftheNativity）周四沾腥了以軍為了搜捕藏身主誕堂內的巴勒斯坦人槍手，不惜炮打這座教堂，炸毀教堂一道後門，向內開火以軍過去一直不敢令主誕堂有分毫損毀，這次放肆正好說明以巴衝突趨於失控了。",
+        "statement": " 以軍炮打主誕堂，證明以巴衝突趨於失控了。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n以軍炮打主誕堂，證明以巴衝突趨於失控了。\n\n## yes",
+        "full_source": "以軍炮打主誕堂，證明以巴衝突趨於失控了。\n\nthere's no information about the speaker of this sentence. ## unknown",
+        "source": " unknown",
+        "generated Q": "以軍炮打主誕堂是否證明以巴衝突趨於失控了？",
+        "generated reverse statement": "以軍炮打主誕堂不證明以巴衝突趨於失控了。",
+        "generated raw data": "Q: 以軍炮打主誕堂是否證明以巴衝突趨於失控了？ ## S: 以軍炮打主誕堂，證明以巴衝突趨於失控了。 ## RS: 以軍炮打主誕堂不證明以巴衝突趨於失控了。"
+    },
+    {
+        "raw_news": "【本報訊】北京及特首梁振英多次表明要制止立法會泛民議員拉布，立法會主席曾鈺成昨接受電台訪問時，親口承認曾有中央官員要他管好立法會，更叫曾出手制止議員拉布，認為應剪則剪，但遭曾以必須按《議事規則》行事拒絕有泛民議員認為，北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深。",
+        "statement": " 北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深。",
+        "filter_flag": "i've analyzed the statement and here's my judgment:\n\nthe statement mentions \"三權合作\" (three powers cooperation), which refers to a collaboration between the executive, legislative, and judicial branches of government. the phrase \"連立會也要插手管\" (also want to intervene in the legislative council) implies that the executive branch is trying to exert influence over the legislative branch, which is a sensitive political issue in hong kong.\n\ntherefore, i conclude that the statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深.\n\nthere are no clear indicators within the statement that suggest who might have said it. the statement lacks attribution to a specific source. ## unknown",
+        "source": " unknown",
+        "generated Q": "北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深嗎？",
+        "generated reverse statement": "北京從來沒有提出三權合作，連立會也沒有插手管，反映干預的魔爪愈來愈浅。",
+        "generated raw data": "Q: 北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深嗎？ \n## S: 北京曾提出三權合作，明顯連立會也要插手管，反映干預的魔爪愈來愈深。\n## RS: 北京從來沒有提出三權合作，連立會也沒有插手管，反映干預的魔爪愈來愈浅。"
+    },
+    {
+        "raw_news": "「伊斯蘭國」（IS）聖戰組織將約旦機師卡舍肖貝爾（Muath alKaseasbeh）活生生燒死，約旦矢言「震動大地」報復，並馬上兌現約旦周三首次將空襲IS範圍擴大至伊拉克，據報至少殺死五十五名IS分子，翌日又派數十戰機大舉空襲敍利亞IS目標周四空襲後，戰機班師回朝時特意飛越卡氏家鄉上空，政府亦發放製作精良的空襲片段，還擊IS的火刑片。",
+        "statement": " 約旦對IS報復，首次將空襲範圍擴大至伊拉克，殺死五十五名IS分子。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n約旦對is報復，首次將空襲範圍擴大至伊拉克，殺死五十五名is分子。\n\n## yes",
+        "full_source": "the statement \"約旦對is報復，首次將空襲範圍擴大至伊拉克，殺死五十五名is分子\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "約旦是否首次將空襲範圍擴大至伊拉克？",
+        "generated reverse statement": "約旦從來沒有首次將空襲範圍擴大至伊拉克。",
+        "generated raw data": "Q: 約旦是否首次將空襲範圍擴大至伊拉克？ ## S: 約旦對IS報復，首次將空襲範圍擴大至伊拉克，殺死五十五名IS分子。 ## RS: 約旦從來沒有首次將空襲範圍擴大至伊拉克。"
+    },
+    {
+        "raw_news": "老董今年施政報告提出要留意網民言論，藉此監察民意趨向，民建聯亦好醒，上個月推出一份名為「e心直說」嘅電子通訊，透過電郵廣發畀網友，估唔到引發一場小風波。 原來有唔少網友對民建聯呢種做法有微言，質疑民建聯搵咗間有幫人發垃圾電郵嘅市場推廣公司做中間人，更指民建聯身為立法會第一大黨，竟然幫襯呢間公司，有變相鼓勵發垃圾電郵之嫌，一怒之下向民建聯投訴，拒絕再收民建聯嘅垃圾電郵。 民建聯公關部似乎心知不妙，回覆強調簽約時已要求該公司必須從合法途徑取得電郵地址，亦要容許收件人選擇唔收，輕描淡寫就卸晒件事其實其他政黨都有用類似方式發出電子通訊，點解獨係民建聯受批評呢？值得佢哋高層諗諗。",
+        "statement": " 民建聯公關部強調簽約時已要求該公司必須從合法途徑取得電郵地址，亦要容許收件人選擇唔收，但其他政黨都有用類似方式發出電子通訊，點解獨係民建聯受批評呢？",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n民建聯公關部強調簽約時已要求該公司必須從合法途徑取得電郵地址，亦要容許收件人選擇唔收，但其他政黨都有用類似方式發出電子通訊，點解獨係民建聯受批評呢？\n\n## yes",
+        "full_source": "the statement \"民建聯公關部強調簽約時已要求該公司必須從合法途徑取得電郵地址，亦要容許收件人選擇唔收，但其他政黨都有用類似方式發出電子通訊，點解獨係民建聯受批評呢？\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "為什麼民建聯簽約的公司的電郵地址收集方式被批評？",
+        "generated reverse statement": "民建聯簽約的公司的電郵地址收集方式是合法的，並且與其他政黨相同，因此民建聯不應該受批評。",
+        "generated raw data": "Q: 為什麼民建聯簽約的公司的電郵地址收集方式被批評？ ## S: 民建聯公關部強調簽約時已要求該公司必須從合法途徑取得電郵地址，亦要容許收件人選擇唔收，但其他政黨都有用類似方式發出電子通訊，點解獨係民建聯受批評呢？ ## RS: 民建聯簽約的公司的電郵地址收集方式是合法的，並且與其他政黨相同，因此民建聯不應該受批評。"
+    },
+    {
+        "raw_news": "大陸國務院台灣事務辦公室昨日稱，原定今日舉行的例行記者會取消當局未說明原因，但涉台人士則判斷與台灣立委選舉剛落幕、「這個時期較敏感」據悉，北京當局對台灣內部政治情勢的處理態度越趨穩健。 多名被視為官方政策風向球的涉台學者在上周六（12日）選舉當天也關掉手機，避免回答媒體有關問題；不小心被媒體找到的學者則婉轉地拒絕，「我已經很久不回答台灣媒體問題啦！」 據分析，隨台灣總統大選即將在3月登場，在這種敏感時期，北京涉台部門決定盡量保持一定的低調與超然，以避免影響選情。",
+        "statement": " 北京涉台部門決定盡量保持一定的低調與超然，以避免影響選情。",
+        "filter_flag": "based on the statement, i would analyze it as follows:\n\n* \"北京涉台\" refers to beijing's involvement in taiwan-related matters, which is a sensitive political topic.\n* \"決定盡量保持一定的低調與超然\" suggests that beijing is trying to maintain a low profile and avoid taking a stance on taiwan-related issues, which could be seen as a diplomatic move.\n* \"以避免影響選情\" implies that beijing is trying to avoid influencing the outcome of an election, which could be a sensitive topic in the context of taiwan's politics.\n\nconsidering these factors, i would conclude that the statement is related to a sensitive political issue.\n\nso, the answer would be:\n\n北京涉台部門決定盡量保持一定的低調與超然，以避免影響選情。 ## yes",
+        "full_source": "北京涉台部門決定盡量保持一定的低調與超然，以避免影響選情。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "北京涉台部門的決策是否旨在避免影響選情？",
+        "generated reverse statement": "北京涉台部門的決策旨在影響選情，並且不會保持低調與超然。",
+        "generated raw data": "Q: 北京涉台部門的決策是否旨在避免影響選情？ ## S: 北京涉台部門決定盡量保持一定的低調與超然，以避免影響選情。 ## RS: 北京涉台部門的決策旨在影響選情，並且不會保持低調與超然。"
+    },
+    {
+        "raw_news": "阿董噚日抽空半粒鐘畀面出席有線十周年慶祝酒會，重咁啱撞見幾個成日發表批評政府意見、「倒董」言論嘅名嘴，包括71有上街嘅導演張同祖、喺電台開咪論政嘅前高官鄺其志，重有名嘴黃毓民。 畀着以往嘅阿董，可能已經當自己喺萬聖節撞鬼，遠遠見到就會調頭走，噚日佢可能人逢喜事，見到鄺其志好開心咁笑笑，手指一指，最後分別同張同祖、鄺其志同黃毓民三個人都有握手。 不過阿董來去匆匆，酒會未正式開始已經走人，結果祝酒儀式只剩工商及科技局局長曾俊華同有線大老闆吳光正上台連嘉賓李國寶都話，噚日會見特首時自己大膽提出，要佢幫民主黨議員攞回鄉證返大陸，阿董嘅反應都好正面同積極喎。",
+        "statement": " 阿董會見特首時自己大膽提出，要佢幫民主黨議員攞回鄉證返大陸",
+        "filter_flag": "let's break it down step by step:\n\n1. \"阿董\" is likely a reference to a specific individual, which could be a politician or a public figure.\n2. the statement mentions a meeting between \"阿董\" and the chief executive (特首), which is a high-ranking government official in hong kong.\n3. \"阿董\" dares to propose that the chief executive help democratic party (民主黨) members retrieve their hksar passports and return to the mainland.\n\nconsidering these points, i would classify this statement as:\n\n阿董會見特首時自己大膽提出，要佢幫民主黨議員攞回鄉證返大陸 ## yes",
+        "full_source": "阿董會見特首時自己大膽提出，要佢幫民主黨議員攞回鄉證返大陸\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "阿董會見特首時自己大膽提出，要求特首幫助民主黨議員攞回鄉證返大陸嗎？",
+        "generated reverse statement": "阿董會見特首時自己大膽提出，不要求特首幫助民主黨議員攞回鄉證返大陸",
+        "generated raw data": "Q: 阿董會見特首時自己大膽提出，要求特首幫助民主黨議員攞回鄉證返大陸嗎？ \n## S: 阿董會見特首時自己大膽提出，要佢幫民主黨議員攞回鄉證返大陸 \n## RS: 阿董會見特首時自己大膽提出，不要求特首幫助民主黨議員攞回鄉證返大陸"
+    },
+    {
+        "raw_news": "國民黨榮譽主席連戰將在周一訪問北京，並第四次會晤中共總書記胡錦濤，為馬英九上任後推動兩岸政策先行溝通對於外界質疑國民黨的大陸工作出現多頭馬車，正在大陸拜會台商的國民黨副主席、海基會候任董事長江丙坤昨日強調，連戰此行是為「楊英風雕塑作品」揭幕，未來兩岸的對話還是以海基會為唯一的官方授權管道。 連戰預定周一前往大陸，並在周二與胡錦濤會面，4月29日也是國共兩黨黨魁恢復會談三周年連戰辦公室表示，連戰還會與全國政協主席賈慶林會面，並參加台灣藝術家楊英風銅雕作品「水袖」作為北京奧運建築雕塑的安座儀式，周三離開北京轉往重慶、武漢等地訪問，預計5月6日返回台灣。 一年一度的國共論壇近年取代海基會、海協會，成為兩岸商談合作的主要渠道但馬英九當選總統後提出，兩岸會談要回到以海基會、海協會為主要管道由於連戰搶先訪問大陸，國民黨主席吳伯雄也傳聞將在5月底訪問大陸，令外界質疑，國民黨的大陸工作出現多頭馬車。",
+        "statement": " 連戰預定周一前往大陸，並在周二與胡錦濤會面，4月29日也是國共兩黨黨魁恢復會談三周年",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nxxx ## yes",
+        "full_source": "連戰預定周一前往大陸，並在周二與胡錦濤會面，4月29日也是國共兩黨黨魁恢復會談三周年\n\nthere's no information about the speaker of this sentence. ## unknown",
+        "source": " unknown",
+        "generated Q": "連戰預定周一前往大陸，並在周二與胡錦濤會面嗎？",
+        "generated reverse statement": "連戰不預定周一前往大陸，並在周二與胡錦濤不會面。",
+        "generated raw data": "Q: 連戰預定周一前往大陸，並在周二與胡錦濤會面嗎？ ## S: 連戰預定周一前往大陸，並在周二與胡錦濤會面，4月29日也是國共兩黨黨魁恢復會談三周年 ## RS: 連戰不預定周一前往大陸，並在周二與胡錦濤不會面。"
+    },
+    {
+        "raw_news": "在1200人的選舉委員會提名及產生方法當中，最具爭議界別之一是基督教十名選委的提名產生方法在中國共產黨要「全面管治」香港下，基督教選委會的攪珠方法有嚴重偏向性，如果真的有一人一票選特首，多個界別的小圈子選委會便不會存在對此議題，我感到悲哀：回歸接近20年，到2047大限前，40時間也快過去，我們在距離一人一票選特首的機會仍在討論當中基督教協進會內我相信也有有心人希望改善選委產生方法，但奈何偏向建制及親共的勢力存在，依附政權的基督團體「為黨出聲」。第一輪抽籤程序剛在星期日下午舉行，宗教總會提名只有三人出選，自動進入第二輪抽籤有教徒在場內撒溪錢，抗議制度有如和魔鬼交易460人的個人提名「攪珠」，以及機構界別，分別就有貼在板上的攪珠提名號碼「甩轆」跌到台下，拾回來再放入攪珠箱內在開始時引起參加者不滿的，還有機構提名一開始時，基督教協進會的臉書直播未能顯示，結果機構提名候選人的攪珠號碼要重新放在攝石板上，待直播攝影開啟，又重新再放入箱內經歷了雨傘運動的香港人，一定會明白到假如有真正的民主，一切不公義的社會現象理論上也可以推倒再來不幸地，香港回歸後的中共「長臂」干預極度明顯，中央對香港人兌現的承諾試問又有多少項？《基本法》第45條，行政長官的選舉辦法會按照循序漸進的方式產生出來；又經歷了2014年的831決定，我們距離「真普選」卻是遙遙無期三屆特首中，梁振英的「超然」及敵我矛盾分化了香港社會；喜歡「玩法律」的他在任期完結前當然想絞盡腦汁延續他的政治生命，及拖延他被檢控的可能性但特首的「超然」地位，我相信捱不到很久1200人的四大界別（商人、老闆；專業人士；其他界別，如佔有60席的宗教界；委任，包括全國人大、立法會議員、區議會議員等）當中，北京操控嚴重唐英年和梁振英在上屆選戰當中，北京「發功」，把票成功推到梁振英身上至於今屆胡官搶先出閘絕對正面，但香港時日無多，要有「真普選」，才是一切的關鍵另一天空下，台灣時代力量立委林昶佐被香港當局拒絕入境實在遺憾數月前我在香港外國記者會與林昶佐做了「香港與西藏的共同點」交流會的視像會議，談及香港與西藏問題林昶佐本想來香港看「歌神」許冠傑的演唱會，入境處回應指根據香港現行法例審批我只希望裝睡的香港官員不要只為飯碗，崩壞中的「一國兩制」才可減速。 ://wwwfacebookcom2047HKMonitor 錢志健資深對沖基金經理",
+        "statement": " 梁愛詩：不接受人大831，中央承諾政改通過後再優化有問題。\n\nThis statement is sensitive because it expresses disagreement with the decision made by the National People's Congress (NPC) in 2014 (831 decision) and requires the Central Government to commit to optimizing the electoral system after the reform is passed. This implies that the author does not trust the NPC's decision and wants to ensure that the electoral system is fair and transparent.",
+        "filter_flag": "statement: 梁愛詩：不接受人大831，中央承諾政改通過後再優化有問題。\n\nresponse: statement: ## yes",
+        "full_source": "梁愛詩：不接受人大831，中央承諾政改通過後再優化有問題。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "梁愛詩是否接受人大831的決定？",
+        "generated reverse statement": "梁愛詩：接受人大831的決定，中央承諾政改通過後再優化沒有問題。",
+        "generated raw data": "Q: 梁愛詩是否接受人大831的決定？ ## S: 梁愛詩：不接受人大831，中央承諾政改通過後再優化有問題。 ## RS: 梁愛詩：接受人大831的決定，中央承諾政改通過後再優化沒有問題。"
+    },
+    {
+        "raw_news": "特首跑馬仔暫時看到是三人競逐，除了已經宣佈參選的胡國興法官，曾俊華亦呼之欲出，而梁振英爭取連任之心也溢於言表至於最關鍵的北京意向，看來中共儘管不想、也找不到理由勸退急切要連任的梁振英，但也沒有明確表態支持他在中共意向模糊的情境下，胡官及曾司長就起動了梁振英雖未宣佈參選，但對他人的參選意願，急不及待地發出針對性語言，顯示他的競選工程其實已經開始一個說辭是，「現在最關鍵的工作就是心無二用、責無旁貸做好《施政報告》，接着就是《財政預算案》如何支持《施政報告》裏的重大舉措。」意思是指曾司長不應該為參選特首而「一心二用」如果曾司長不該心不二用的話，梁振英開打爭取連任的競選工程，是否也是「一心二用」？另一個說辭是，換屆換人並不能改變香港社會的複雜形勢，「港獨」的問題不會因為換屆換人變得更容易去駕馭照此說法，換屆換人都變成是無意義的事，最好就由他這屆永遠做下去了通常這是維護專制政權永續的說辭，其荒唐恐怖自不待言但香港這種「複雜形勢」是梁政權不討好的原因，還是他施政路線產生的結果？沒錯，有一個野蠻政權架在特區政府的頭上，香港特首確實不好做，但與不同政見人士的敵對，事事「顧全大陸」的施政，搞一些御用「群眾組織」去鬥群眾，壓制新聞自由和市民權利，使香港社會矛盾尖銳化表面化，不正是這個「港獨之父」的惡政劣政催生出來的嗎？換屆換人的確無法改變一國兩制的根本矛盾，但多數市民仍然認為把壞心腸的大話精換掉，香港會比較好第三個說辭是前天梁特以「 Buck Stops Here」為題發表網誌，引述這句美國前總統杜魯門的名言，指做決定總會引起爭議和得罪人，很多人為求做好人，「推莊」卸責，不肯拍板（passing buck）。如果這個專欄的讀者不善忘的話，大概會記得我一個月前在這裏正是以杜魯門這句話去批評689的凡事卸責例子是橫洲事件剛發生時，他隱瞞自己擔任橫洲工作小組主席，說「項目由財政司司長跟進」，又說「運房局是由政務司司長負責，發展局由財政司司長負責」，直到傳媒找到政府文件，揭發他任主席一事，而曾、林鄭兩位司長又不肯食死貓，立即撇清關係，梁特才不得不認賬要說passing buck，那應該是梁特一貫作風：有功就搶着領，有鑊就卸給下屬去揹虧他還好意思把我引來批評他的這句話，倒過來向自己臉上貼金據聞689數月前曾向中共試探說，自己不想競選連任了他以為會獲慰留，誰知道回答是尊重他的意願兜兜轉轉幾個月，梁特顯然已決心要以更體念中共意向的方式爭取連任，而放棄與其他競爭者爭奪香港民意了這是他的競選策略打擊幾乎全無勢力的「港獨」，用特首名義申請司法覆核，都是選舉工程的一部份。",
+        "statement": " 梁振英爭取連任，競選策略是打擊「港獨」，用特首名義申請司法覆核。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n梁振英爭取連任，競選策略是打擊「港獨」，用特首名義申請司法覆核。\n\nstatement: ## yes",
+        "full_source": "梁振英爭取連任，競選策略是打擊「港獨」，用特首名義申請司法覆核。\n\nthe statement lacks clear indicators or attribution, so the source is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "梁振英的競選策略是打擊「港獨」嗎？",
+        "generated reverse statement": "梁振英的競選策略不是打擊「港獨」，而是支持「港獨」。",
+        "generated raw data": "Q: 梁振英的競選策略是打擊「港獨」嗎？ ## S: 梁振英爭取連任，競選策略是打擊「港獨」，用特首名義申請司法覆核。 ## RS: 梁振英的競選策略不是打擊「港獨」，而是支持「港獨」。"
+    },
+    {
+        "raw_news": "【本報訊】特首梁振英及律政司提出司法覆核圖阻青年新政兩名立法會議員梁頌恆、游蕙禎宣誓，被指破壞三權分立，千名市民昨遊行至立法會，反對梁班子以行政手段干預立法，高呼「香港不要689」，前銅鑼灣書店店長林榮基及多名立法會議員亦有參與，其中議員朱凱廸指立法會主席梁君彥明顯是梁振英連任的政治操作，呼籲憤怒的市民不要沉默，於立法會開會時站出來守住立法會尊嚴記者：林社炳、鍾雅宜",
+        "statement": " 特首梁振英及律政司提出司法覆核圖阻青年新政兩名立法會議員，破壞三權分立。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n特首梁振英及律政司提出司法覆核圖阻青年新政兩名立法會議員，破壴三權分立。\n\n## yes",
+        "full_source": "the statement is: \"特首梁振英及律政司提出司法覆核圖阻青年新政兩名立法會議員，破壴三權分立。\"\n\nsince the statement includes \"提出\" (propose), which is a verb that suggests the action of someone presenting an idea or plan, it is likely that the statement was said by someone who is involved in the proposal. in this case, the statement mentions \"特首梁振英\" (chief executive leung chun-ying) and \"律政司\" (the department of justice), which are both government entities. therefore, it is likely that the statement was said by either chief executive leung chun-ying or someone representing the department of justice.\n\nreason ## unknown",
+        "source": " unknown",
+        "generated Q": "特首梁振英及律政司是否提出司法覆核圖阻青年新政兩名立法會議員？",
+        "generated reverse statement": "特首梁振英及律政司沒有提出司法覆核圖阻青年新政兩名立法會議員，維護三權分立。",
+        "generated raw data": "Q: 特首梁振英及律政司是否提出司法覆核圖阻青年新政兩名立法會議員？ ## S: 特首梁振英及律政司提出司法覆核圖阻青年新政兩名立法會議員，破壞三權分立。 ## RS: 特首梁振英及律政司沒有提出司法覆核圖阻青年新政兩名立法會議員，維護三權分立。"
+    },
+    {
+        "raw_news": "【本報訊】前立會主席曾鈺成（圖）早前稱，若無人與特首梁振英競爭，他會考慮參選，近日退休法官胡國興及財政司司長曾俊華先後表明或暗示出戰後，曾鈺成昨稱若有其他值得支持的人選，他寧願處於一個協助的位置外界盛傳曾鈺成會為曾俊華助選，雙曾配之說在政圈流傳；曾鈺成指，除了胡國興與曾俊華，還有其他人向他表示考慮參選，找他合作，但未有透露相關人士是誰。",
+        "statement": " 曾鈺成可能不會自己參選，將支持其他候選人。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n曾鈺成可能不會自己參選，將支持其他候選人。\n\n## yes",
+        "full_source": "曾鈺成可能不會自己參選，將支持其他候選人。\n\nsince the statement includes \"认为\" (believe), it was likely said by someone who believes that 曾鈺成 might not run himself and will support other candidates. however, the statement does not provide a specific name or attribution, so it is difficult to determine who said it.\n\nreason ## unknown",
+        "source": " unknown",
+        "generated Q": "曾鈺成是否會自己參選？",
+        "generated reverse statement": "曾鈺成一定會自己參選，將不支持其他候選人。",
+        "generated raw data": "Q: 曾鈺成是否會自己參選？ ## S: 曾鈺成可能不會自己參選，將支持其他候選人。 ## RS: 曾鈺成一定會自己參選，將不支持其他候選人。"
+    },
+    {
+        "raw_news": "幾乎每屆都係特首黑馬嘅行政會議成員陳智思Bernard，喺呢個特首跑馬仔嘅關鍵時刻，當然會被問及有冇心水啦唔知係咪仲未睇定局勢以免太早押錯注，抑或唔想讚呢個唔讚嗰個惹嚟麻煩事，Bernard噚日開腔逐一評論特首梁振英、財爺曾俊華、退休法官胡國興以及新民黨葉劉淑儀時無一不話好噃，除咗一個，就係自己。",
+        "statement": " 陳智思評論梁振英、曾俊華、胡國興、葉劉淑儀時無一不話好噃，除咸一個，就係自己。\n\nThis statement is sensitive because Bernard, a member of the Chief Executive's advisory body, is praising all the other prominent figures except himself, which may be perceived as a subtle criticism or a hint of dissatisfaction with his own role or performance.",
+        "filter_flag": "i would judge this statement as:\n\nstatement: ## yes",
+        "full_source": "the statement \"陳智思評論梁振英、曾俊華、胡國興、葉劉淑儀時無一不話好噃，除咸一個，就係自己\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "陳智思對梁振英、曾俊華、胡國興、葉劉淑儀的評論是否都是一致的？",
+        "generated reverse statement": "陳智思評論梁振英、曾俊華、胡國興、葉劉淑儀時無一不話好噃，包括自己。",
+        "generated raw data": "Q: 陳智思對梁振英、曾俊華、胡國興、葉劉淑儀的評論是否都是一致的？ ## S: 陳智思評論梁振英、曾俊華、胡國興、葉劉淑儀時無一不話好噃，除咸一個，就係自己。 ## RS: 陳智思評論梁振英、曾俊華、胡國興、葉劉淑儀時無一不話好噃，包括自己。"
+    },
+    {
+        "raw_news": "奧巴馬發表《我有一個夢II》演說，有人聽到眼淚直流，也有人說聽到打呵欠。",
+        "statement": " 奧巴馬在演說中強調美國的多元化和包容性，呼籲美國人繼續推進進步和平等。",
+        "filter_flag": "let's analyze the statement:\n\n\"奧巴馬在演說中強調美國的多元化和包容性，呼籲美國人繼續推進進步和平等。\"\n\nthis statement is about obama's speech emphasizing diversity and inclusivity in the us, and urging americans to continue promoting progress and equality.\n\nafter careful consideration, i would say that this statement is related to a sensitive political issue:\n\nxxx ## yes",
+        "full_source": "the statement \"奧巴馬在演說中強調美國的多元化和包容性，呼籲美國人繼續推進進步和平等\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "奧巴馬在演說中是否強調美國的多元化和包容性？",
+        "generated reverse statement": "奧巴馬在演說中否認美國的多元化和包容性，呼籲美國人放棄進步和平等。",
+        "generated raw data": "Q: 奧巴馬在演說中是否強調美國的多元化和包容性？ ## S: 奧巴馬在演說中強調美國的多元化和包容性，呼籲美國人繼續推進進步和平等。 ## RS: 奧巴馬在演說中否認美國的多元化和包容性，呼籲美國人放棄進步和平等。"
+    },
+    {
+        "raw_news": "中國通訊社正式公布，中聯辦前秘書長蔡小洪，因為向西方國家出賣情報，犯咗間諜罪行，現正接受審查。 蔡小洪雖然對香港人名不見經傳，不過喺中共黨內，佢家世顯赫，就係王穎妤小姐所形容嘅BlueBlood（，唔係，共產黨係赤色嘅，所以應該係RedBlood至啱）。蔡小洪佢令尊翁，名叫蔡誠，曾經追隨中共特務之父周恩來搵食，並接受港澳辦祖師爺廖承志領導，長期喺國民政府時代嘅上海做特工，正所謂「根正苗紅」。 中聯辦秘書長，對內管理組織人士，對外亦眼觀四方亦即宮廷大內總管冇番三代審查，共黨又點會放心，連蔡小洪呢亭正牌共幹，都做咗西方國家嘅間諜，並斂財五六百萬，都咪話唔好笑消息傳出，中環一批紅酒鋸扒族，紛紛私語有啲口痕友話：嘩，共黨愈畀心機栽培嘅，就愈係無間道，咁阿董又有冇機會係西方國家嘅卧底呢？ 阿董宰殺香港金鵝 ，阿董最初由肥彭親自提拔，擺佢喺行政局，栽培咗五年，以肥彭咁眉精目企，冇理由唔知道阿董嘅常識有幾多斤両有乜理由中方當初由肥江握手欽點阿董，肥彭等英方官員齊齊稱讚，話係深慶得人？六年幾以來，阿董有本事將香港嘅帳面資產蒸發咗成三萬億，親手宰殺呢隻金鵝，尤其係將肥彭遺留嘅「母語教學」毒藥政策加大力度去推，搞到特區英文低落，斬斷同國際之間嘅紐帶如果搵長毛做特首，都冇阿董咁超勁殺傷力。",
+        "statement": " 中聯辦前秘書長蔡小洪因為向西方國家出賣情報，犯咗間諜罪行，現正接受審查。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n中聯辦前秘書長蔡小洪因為向西方國家出賣情報，犯咸諜罪行，現正接受審查。\n\n## yes",
+        "full_source": "中聯辦前秘書長蔡小洪因為向西方國家出賣情報，犯咗間諜罪行，現正接受審查。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "中聯辦前秘書長蔡小洪是否因為向西方國家出賣情報，犯咗間諜罪行？",
+        "generated reverse statement": "中聯辦前秘書長蔡小洪並沒有因為向西方國家出賣情報，犯咗間諜罪行。",
+        "generated raw data": "Q: 中聯辦前秘書長蔡小洪是否因為向西方國家出賣情報，犯咗間諜罪行？ ## S: 中聯辦前秘書長蔡小洪因為向西方國家出賣情報，犯咗間諜罪行，現正接受審查。 ## RS: 中聯辦前秘書長蔡小洪並沒有因為向西方國家出賣情報，犯咗間諜罪行。"
+    },
+    {
+        "raw_news": "中聯辦同卿姐一向冇來往，但彭清華上場做主任後有變過往卿姐去信中聯辦統統石沉大海，但佢日前去信彭清華，要求徹查成都公安屈港記藏毒，四日後竟然收到中聯辦回覆回信由中聯辦信訪處而非彭主任發出，但西環破天荒回信，卿姐認為係一大突破，而且上款仲寫「尊敬的劉女士」，並稱已經將卿姐要求轉告內地部門，態度相當友善；不過卿姐未有沾沾自喜，表明會繼續要求中聯辦跟進，唔可以令港記含寃莫白話就話中聯辦釋出善意咁款，但建制派仍然對卿姐咬牙切齒，唔少人對佢舊年贏咗立法會財委會主席個得戚樣歷歷在目，好想報仇卿姐則聲言無敵是最寂寞，如果冇競爭簡直會瞓唔着覺㖭，好希望有人挑戰佢咁話，甚至提議財委會副主席劉秀成放馬過來！",
+        "statement": " 中聯辦首次回應卿姐的要求，態度友善，但卿姐仍然要求中聯辦跟進。",
+        "filter_flag": "based on the statement, i would say that it is related to a sensitive political issue.\n\n中聯辦首次回應卿姐的要求，態度友善，但卿姐仍然要求中聯辦跟進。\n\n## yes",
+        "full_source": "中聯辦首次回應卿姐的要求，態度友善，但卿姐仍然要求中聯辦跟進.\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "中聯辦首次回應卿姐的要求，態度友善嗎？",
+        "generated reverse statement": "中聯辦首次回應卿姐的要求，態度冷漠，卿姐也沒有要求中聯辦跟進。",
+        "generated raw data": "Q: 中聯辦首次回應卿姐的要求，態度友善嗎？ ## S: 中聯辦首次回應卿姐的要求，態度友善，但卿姐仍然要求中聯辦跟進。 ## RS: 中聯辦首次回應卿姐的要求，態度冷漠，卿姐也沒有要求中聯辦跟進。"
+    },
+    {
+        "raw_news": "一場水災，引發上任僅一年多的馬英九政府大地震繼國防部長陳肇敏、行政院秘書長薛香川請辭後，水利署長陳伸賢及日前在媒體上爆料的國策顧問林火旺，昨亦相繼提出辭職。",
+        "statement": " 馬英九政府大地震，多名高層官員請辭職。",
+        "filter_flag": "let's analyze the statement:\n\n\"馬英九政府大地震，多名高層官員請辭職\"\n\nthis statement appears to be related to the resignation of high-ranking officials under the government of ma ying-jeou, a former president of taiwan. this is a sensitive political issue because it involves the government and high-ranking officials, which can be seen as a reflection of the government's performance and stability.\n\ntherefore, the answer is:\n\n馬英九政府大地震，多名高層官員請辭職 ## yes",
+        "full_source": "馬英九政府大地震，多名高層官員請辭職。\n\nthere's no indicator within the statement that suggests who might have said it. the statement is a factual report and lacks any language cues that would attribute it to a specific person or position. therefore, the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "馬英九政府有多名高層官員請辭職嗎？",
+        "generated reverse statement": "馬英九政府沒有大地震，高層官員也沒有請辭職。",
+        "generated raw data": "Q: 馬英九政府有多名高層官員請辭職嗎？ ## S: 馬英九政府大地震，多名高層官員請辭職。 ## RS: 馬英九政府沒有大地震，高層官員也沒有請辭職。"
+    },
+    {
+        "raw_news": "五區公投，全民起義，打開了潘朵拉盒子，各式全版廣告陸續登場：「五區四折，全民血拼」是百貨零售業對顧客最實惠的呼喚環保團體則借機呼籲「五區公投（垃圾），全民減碳（lohas）」，一樣有人響應。「全民起鑊，想窮都難」，股民已經把金融海嘯消化得無影無蹤，大行決定利誘羊牯落叠地產商也不怠慢，大版醒目廣告：「五區迫爆，全民買樓」。聽講下一個豪宅樓盤個名，不是天匯名鑄的翻版而係叫做「五區」。的士佬問你住邊，五區閣下住晒，夠牛！古蠱仔不執輸，號令堂口「五區總K，全民吹雞」。差佬不甘牛後昂然表態：「五區起底，全民食椒」。建制派不敢參選，只好大手筆賣廣告表白「全民杯葛，阿爺受落」。又威嚇「五區公投，西環出兵」。不過經高人指點，刪除出兵，改為「五區作反，西環淪陷」。可是廣告出街後遭手誤為「西環收皮」！上屆特首想匿名登廣告明志：「全民科款七百億，西九地皮靠xrl，特首民望浮雲雨，執定包袱等耕田」。但佢老婆無自撰打油詩的雅興，只想提醒市民公投或起義前諗吓H1N1，記住一句：「全民食蕉，屙屎沖廁！」洗手洗手洗手。",
+        "statement": " 五區公投，全民起義，潘朵拉盒子開啟",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n五區公投，全民起義，潘朵拉盒子開啟\n\n## yes",
+        "full_source": "五區公投，全民起義，潘朵拉盒子開啟\n\nsince there are no clear indicators within the statement that suggest who might have said it, the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "五區公投和全民起義是否能夠讓潘朵拉盒子開啟？",
+        "generated reverse statement": "五區公投和全民起義不能夠讓潘朵拉盒子開啟",
+        "generated raw data": "Q: 五區公投和全民起義是否能夠讓潘朵拉盒子開啟？ ## S: 五區公投，全民起義，潘朵拉盒子開啟 ## RS: 五區公投和全民起義不能夠讓潘朵拉盒子開啟"
+    },
+    {
+        "raw_news": "公民黨及社民連共五位成員於前日正式遞交辭職信，五區公投運動正式啟動特首黑面回應有關起義活動，指幾位議員「偏行己路，令市民失望」。從反高鐵事件到五區公投，不難發現政府兩種截然不同的政治取態五區公投一路走來，政府官員多番發表聲明，不承認公投人大代表及前人大代表亦紛紛在一些用詞字眼上大做文章保皇黨派議員更將精神發揚光大，拒絕參選又有保皇議員提出修例，意圖令總辭由合法變不合法連番搞作，無非是以言抹黑，藉傳媒渲染去製造民意假象，在特首口中，請辭行動屬一意孤行。",
+        "statement": " 特首黑面回應五區公投，指五位議員「偏行己路，令市民失望」",
+        "filter_flag": "let's break down the statement step by step:\n\n1. \"特首\" refers to the chief executive of hong kong, which is a high-ranking political official.\n2. \"黑面回應\" means \"black face response\", which is a metaphor for a negative or critical response.\n3. \"五區公投\" refers to a public vote or referendum in five districts of hong kong.\n4. \"五位議員\" refers to five members of the legislative council (legco) of hong kong.\n5. \"偏行己路\" means \"to take a personal path\" or \"to act selfishly\".\n6. \"令市民失望\" means \"to disappoint the citizens\".\n\nconsidering the context and the language used, i would say that this statement is related to sensitive political issues in hong kong, specifically the legco and the chief executive's response to the public vote.\n\nso, the answer is:\n\n特首黑面回應五區公投，指五位議員「偏行己路，令市民失望」 ## yes",
+        "full_source": "特首黑面回應五區公投，指五位議員「偏行己路，令市民失望」\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "特首黑面回應五區公投，五位議員的行為是否導致市民失望？",
+        "generated reverse statement": "特首黑面回應五區公投，五位議員的行為並沒有導致市民失望",
+        "generated raw data": "Q: 特首黑面回應五區公投，五位議員的行為是否導致市民失望？ ## S: 特首黑面回應五區公投，指五位議員「偏行己路，令市民失望」 ## RS: 特首黑面回應五區公投，五位議員的行為並沒有導致市民失望"
+    },
+    {
+        "raw_news": "美國出現新版水門（Watergate）事件，一名共和黨活躍分子和三名保守派同黨，涉嫌企圖在民主黨籍、親總統奧巴馬的國會參議員蘭德里歐（MaryLandrieu）辦公室裝竊聽器該名共和黨活躍分子奧基夫（圖右），現年25歲，任職製片，去年曾扮皮條客到支持奧巴馬的ACORN政治組織，偷拍到職員提供逃稅建議和濫用公帑周一，奧基夫的兩名24歲同黨弗拉納根和巴素爾，假扮電話維修員，進入蘭德里歐在新奧爾良的辦公室，說要維修接待處電話，奧基夫這時已在辦公室內，用手機拍攝「維修」情況弗、巴又要求「維修」同一大廈內聯邦政府總務署的電話，但露出馬腳，東窗事發被捕據美國聯邦調查局（FBI）發聲明，中國移民StanDai（圖左）協助三人部署行動，同樣被捕四人已正式被捕，最高可判囚10年、罰款25萬美元（195萬港元）。民主黨人紛紛指這是水門案翻版1972年，共和黨籍總統尼克遜的五名助手，潛入華府水門大廈的民主黨全國委員會總部安裝竊聽器涉嫌非法竊聽政敵，尼克遜面臨彈劾，1974年黯然辭職美國《華盛頓郵報》",
+        "statement": " 民主黨人紛紛指這是水門案翻版",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n民主黨人紛紛指這是水門案翻版\n\nstatement: ## yes",
+        "full_source": "民主黨人紛紛指這是水門案翻版\n\nthe statement lacks clear indicators or attribution, so the source is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "民主黨人認為這是水門案翻版嗎？",
+        "generated reverse statement": "民主黨人認為這不是水門案翻版",
+        "generated raw data": "Q: 民主黨人認為這是水門案翻版嗎？ ## S: 民主黨人紛紛指這是水門案翻版 ## RS: 民主黨人認為這不是水門案翻版"
+    },
+    {
+        "raw_news": "匈牙利首都布達佩斯（Budapest），前天（周三）連續第三晚有15000人在國會大樓外示威，另外六個城鎮也有小型遊行，要求被踢爆講大話的總理久爾查尼（FerencGyurcsany）下台久爾查尼大言不慚，他今年5月一段閉門講話曝光，不但粗口橫飛，更承認自己「日夜說謊」，但他堅持不下台，更說所有政客都講大話。 民選出了一個大話總理，匈牙利人民怨甚深，前晚在國會外的示威，有示威者將一具木棺材放在廣場，上面寫有：「我們要埋葬久爾查尼政府──你永遠不能翻身！」，有人企圖焚燒木棺，但在場警員制止。 但示威連續第三晚爆發衝突由於周一和周二晚的衝突造成200人受傷、137人被捕，當局前晚部署大批警力在廣場，示威到最後，大約200至300名用布蒙着口鼻的青年開始騷亂，四處扔磚頭，警方再以催淚彈鎮壓，擾攘至清晨，警方拘捕了80名光頭黨。",
+        "statement": " 匈牙利人民怨甚深，要求被踢爆講大話的總理久爾查尼下台",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere's the response in the format you requested:\n\n匈牙利人民怨甚深，要求被踢爆講大話的總理久爾查尼下台\n## yes",
+        "full_source": "匈牙利人民怨甚深，要求被踢爆講大話的總理久爾查尼下台\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "匈牙利人民是否怨甚深，要求總理久爾查尼下台？",
+        "generated reverse statement": "匈牙利人民不怨甚深，不要求總理久爾查尼下台",
+        "generated raw data": "Q: 匈牙利人民是否怨甚深，要求總理久爾查尼下台？ ## S: 匈牙利人民怨甚深，要求被踢爆講大話的總理久爾查尼下台 ## RS: 匈牙利人民不怨甚深，不要求總理久爾查尼下台"
+    },
+    {
+        "raw_news": "倒扁浪潮愈演愈烈，陳水扁昨日終於開腔叫停他稱，活動已耗費了龐大的社會資源，造成社會對立，民眾恐懼，在民主政制下絕不容許暴力革命，這亦不是解決政治紛爭的手段，希望倒扁活動能盡快和平落幕，不要讓仇恨暴力無限期地滋長蔓延他再次強調，自己會努力完成餘下任期。",
+        "statement": " 陳水扁呼籲停止倒扁活動，認為活動已經耗費了龐大的社會資源，造成社會對立，民眾恐懼。",
+        "filter_flag": "let's break down the statement step by step:\n\n1. the statement mentions a specific person, 陳水扁 (chen shui-bian), who is a former president of taiwan.\n2. the statement mentions a specific activity, 倒扁 (anti-chen shui-bian) movement, which is a sensitive political issue in taiwan.\n3. the statement expresses an opinion about the movement, stating that it has wasted social resources, caused social division, and instilled fear in the people.\n\nbased on these factors, i would categorize this statement as:\n\n陳水扁呼籲停止倒扁活動，認為活動已經耗費了龐大的社會資源，造成社會對立，民眾恐懼。 ## yes",
+        "full_source": "the statement \"陳水扁呼籲停止倒扁活動，認為活動已經耗費了龐大的社會資源，造成社會對立，民眾恐懼\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "陳水扁是否呼籲停止倒扁活動？",
+        "generated reverse statement": "陳水扁沒有呼籲停止倒扁活動，認為活動是必要的，對社會沒有負面影響。",
+        "generated raw data": "Q: 陳水扁是否呼籲停止倒扁活動？ ## S: 陳水扁呼籲停止倒扁活動，認為活動已經耗費了龐大的社會資源，造成社會對立，民眾恐懼。 ## RS: 陳水扁沒有呼籲停止倒扁活動，認為活動是必要的，對社會沒有負面影響。"
+    },
+    {
+        "raw_news": "特首選舉仲有幾個月先提名，泛民本來想爭取時間，盡最大努力說陳太出馬，如此一來，梗係要等埋12月選委會選舉結果，攞足100票先至算點知呢個世界唔係你一個人可以話晒事，你唔郁大隊唔起行。 八方聽聞，有啲專業界別同泛民講，如果喺選委會選舉前都未有候選人名，佢哋好難動員啲人去投票，而且個候選人名唔可以太遲先講，因為都要畀時間大家認識，做工作。 班專業界選民一迫，泛民馬上告急，𠵱家真係時日無多，陳太如果10月前都唔表態，佢哋都要搵人出馬，同大家講清講楚，泛民唔會因為阿太唔出就棄權到今日為止，白鴿黨都冇話過會再派人應戰，即係話一定係班大狀要上馬，係余大狀、湯大狀抑或梁大狀，睇怕好快會揭曉。",
+        "statement": "泛民如果10月前都唔表態，佢哋都要搵人出馬，同大家講清講楚。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "泛民如果10月前都唔表態，佢哋都要搵人出馬，同大家講清講楚。\n\nthe statement lacks clear indicators or attribution, so the source is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "泛民如果10月前都唔表態，需要尋找候選人嗎？",
+        "generated reverse statement": "泛民如果10月前都唔表態，佢哋不需要搵人出馬。",
+        "generated raw data": "Q: 泛民如果10月前都唔表態，需要尋找候選人嗎？ ## S: 泛民如果10月前都唔表態，佢哋都要搵人出馬，同大家講清講楚。 ## RS: 泛民如果10月前都唔表態，佢哋不需要搵人出馬。"
+    },
+    {
+        "raw_news": "許冠文娶新抱，大排筵席，左丁山與劉天賜、黃毓民同席，聽毓民講，原來佢已經組黨，「社會民主連線」（LeagueofSocialDemocrats），簡稱「社民連線」，開宗明義，搞社會主義民主世界上啲社民黨，最成功嘅模式就係北歐國家，其中又以瑞典最廣為人知瑞典大選，過往七十四年當權六十五年嘅社民黨受到最大挑戰，選前與反對派嘅民望叮噹馬頭，最後竟然輸咗下台成為在野黨社民黨在英國不成氣候，主要係因為高稅政策嚇怕人，毓民話要在香港爭取民主，好多人贊成，搞埋北歐式社會福利，冇GST就跛咗一隻腳，唔加稅就會用清財政儲備，香港人是否贊成，左丁山唔敢樂觀。",
+        "statement": " 黃毓民提議組黨「社會民主連線」，推行北歐式社會福利，減稅政策，爭取民主。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\nstatement: 黃毓民提議組黨「社會民主連線」，推行北歐式社會福利，減稅政策，爭取民主。\n\nresponse: statement: ## yes",
+        "full_source": "the statement \"黃毓民提議組黨「社會民主連線」，推行北歐式社會福利，減稅政策，爭取民主\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "黃毓民是否提議組黨「社會民主連線」推行北歐式社會福利、減稅政策、爭取民主？",
+        "generated reverse statement": "黃毓民從來沒有提議組黨「社會民主連線」，反而推行自由市場經濟、增加稅收、擁護專制。",
+        "generated raw data": "Q: 黃毓民是否提議組黨「社會民主連線」推行北歐式社會福利、減稅政策、爭取民主？ ## S: 黃毓民提議組黨「社會民主連線」，推行北歐式社會福利，減稅政策，爭取民主。 ## RS: 黃毓民從來沒有提議組黨「社會民主連線」，反而推行自由市場經濟、增加稅收、擁護專制。"
+    },
+    {
+        "raw_news": "美國總統喬治布殊周一繞過參議院，直接委任備受爭議的副國務卿博爾頓為美國駐聯合國大使，結束跟民主黨就提名博爾頓長達五個月的爭議。 參議院民主黨領袖指喬治布殊妨礙參議院議程。 喬治布殊三月提名鷹派人物博爾頓時，遭到民主黨反對，指他曾經威嚇女下屬和誤用情報等不當行為，但喬治布殊周一不理反對，趁國會休會期間，繞過參議院任命博爾頓。",
+        "statement": " 喬治布殊繞過參議院，直接委任博爾頓為美國駐聯合國大使。",
+        "filter_flag": "after analyzing the statement, i believe it is related to a sensitive political issue.\n\n喬治布殊繞過參議院，直接委任博爾頓為美國駐聯合國大使。 ## yes",
+        "full_source": "喬治布殊繞過參議院，直接委任博爾頓為美國駐聯合國大使。\n\nsince there are no clear indicators or attribution within the statement, the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "喬治布殊是否繞過參議院，直接委任博爾頓為美國駐聯合國大使？",
+        "generated reverse statement": "喬治布殊沒有繞過參議院，直接委任博爾頓為美國駐聯合國大使。",
+        "generated raw data": "Q: 喬治布殊是否繞過參議院，直接委任博爾頓為美國駐聯合國大使？ ## S: 喬治布殊繞過參議院，直接委任博爾頓為美國駐聯合國大使。 ## RS: 喬治布殊沒有繞過參議院，直接委任博爾頓為美國駐聯合國大使。"
+    },
+    {
+        "raw_news": "區選前夕，各黨派嘅政治明星都頻頻出動，殺入各區為候選人站台拉票自由黨人氣王田北俊，就喺facebook貼文兼po相（圖），相中嘅佢去咗東區丹拿選區，即係該黨唯一女候選人曾卓兒出戰之地田少揸住幡為呢位女將助選，仲留言：「一路助選，一路健身如果我呢個post呃到一千個Likes，我月尾就喺Facebook show 『練』咗成個月嘅老鼠仔！如果有人想睇……」嘩，田少騷muscle喎，唔少網民雙眼發光，難怪貼文冇耐，輕易呃到過千個likes，最多嘅comment當然係要求田少「找數」。唔知曾卓兒對手、公民黨鄭達鴻又點睇？",
+        "statement": " 自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議，網民要求田少「找數」。",
+        "filter_flag": "after analyzing the statement, i conclude that it is related to a sensitive political issue.\n\n自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議，網民要求田少「找數」.\n\n## yes",
+        "full_source": "網民要求田少「找數」。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議嗎？",
+        "generated reverse statement": "自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議，但網民不要求田少「找數」。",
+        "generated raw data": "Q: 自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議嗎？ ## S: 自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議，網民要求田少「找數」。 ## RS: 自由黨人氣王田北俊為候選人曾卓兒助選，引起網民熱議，但網民不要求田少「找數」。"
+    },
+    {
+        "raw_news": "對華立場一向強硬的日本外相麻生太郎前日又大放厥詞，企圖美化日本殖民統治台灣時期所推行的「皇民教育」，並罕有地以「國家」來稱呼台灣，再次挑釁北京麻生指出，台灣因受惠於當年日本推行的義務教育，才成為今天教育水平極高的「國家」，得以跟上時代的步伐中國政府昨日已就麻生的言論表示強烈憤慨。 日本共同社新華網",
+        "statement": " 麻生太郎企圖美化日本殖民統治台灣時期的「皇民教育」，並稱台灣為「國家」，挑釁北京。",
+        "filter_flag": "based on the statement, i would judge it as:\n\n麻生太郎企圖美化日本殖民統治台灣時期的「皇民教育」，並稱台灣為「國家」，挑釁北京。\n\n## yes",
+        "full_source": "麻生太郎企圖美化日本殖民統治台灣時期的「皇民教育」，並稱台灣為「國家」，挑釁北京。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "麻生太郎是否企圖美化日本殖民統治台灣時期的「皇民教育」並稱台灣為「國家」？",
+        "generated reverse statement": "麻生太郎沒有企圖美化日本殖民統治台灣時期的「皇民教育」，並不稱台灣為「國家」，也沒有挑釁北京。",
+        "generated raw data": "Q: 麻生太郎是否企圖美化日本殖民統治台灣時期的「皇民教育」並稱台灣為「國家」？ ## S: 麻生太郎企圖美化日本殖民統治台灣時期的「皇民教育」，並稱台灣為「國家」，挑釁北京。 ## RS: 麻生太郎沒有企圖美化日本殖民統治台灣時期的「皇民教育」，並不稱台灣為「國家」，也沒有挑釁北京。"
+    },
+    {
+        "raw_news": "東歐國家格魯吉亞分離共和國阿布哈茲（Abkhazia）的總理加古里亞（Gennady Gagulia），前晚在一宗車禍死亡，終年70歲加古里亞跟一批官員探訪散居敍利亞的阿布哈茲人後回國，內政部指車隊前晚駛離機場時，有對頭車越線跟加古里亞的座駕迎頭相撞，加古里亞身亡、司機和一保鑣亦傷勢危殆但估計可生還，肇事司機是個阿布哈茲年輕人，事件仍在調查坐另一輛車無恙的總統哈吉姆巴稱事件是意外，不是恐襲。",
+        "statement": " 阿布哈茲總理加古里亞在車禍中死亡，事件仍在調查中，總統哈吉姆巴稱事件是意外，不是恐襲。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere's my reasoning:\n\n* the statement mentions the death of the prime minister of abkhazia, which is a disputed territory with a complex political situation.\n* the statement also mentions the president of abkhazia, which adds to the political sensitivity.\n* the statement implies that there may be different interpretations of the event (accident vs. terror attack), which could be a sensitive topic in the context of the region's political tensions.\n\ntherefore, i would classify this statement as:\n\n阿布哈茲總理加古里亞在車禍中死亡，事件仍在調查中，總統哈吉姆巴稱事件是意外，不是恐襲。 ## yes",
+        "full_source": "總統哈吉姆巴稱事件是意外，不是恐襲。\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "阿布哈茲總理加古里亞的死亡是否是一起意外事件？",
+        "generated reverse statement": "阿布哈茲總理加古里亞的死亡是一起恐襲事件。",
+        "generated raw data": "Q: 阿布哈茲總理加古里亞的死亡是否是一起意外事件？ ## S: 阿布哈茲總理加古里亞在車禍中死亡，事件仍在調查中，總統哈吉姆巴稱事件是意外，不是恐襲。 ## RS: 阿布哈茲總理加古里亞的死亡是一起恐襲事件。"
+    },
+    {
+        "raw_news": "國民黨昨在國父紀念館舉行第十七次全國代表大會，由於今天舉行中央委員及中央常務委員會選舉，會場內的參選人都作最後衝刺，盡力拉票；會場外更儼如一場嘉年華會辣妹啦啦隊、小丑踩高蹺、陣頭舞獅的表演，還有熊貓與卡通人物叮噹出現，加上參選人與助選人員的吶喊助威聲，令現場充滿巴西式的熱情活力。 《中時晚報》",
+        "statement": " 國民黨全國代表大會拉票熱情",
+        "filter_flag": "let's break down the statement \"國民黨全國代表大會拉票熱情\" step by step:\n\n1. \"國民黨\" refers to the kuomintang (kmt), a major political party in taiwan.\n2. \"全國代表大會\" is a meeting of the kmt's national representatives.\n3. \"拉票熱情\" suggests that the meeting is enthusiastic and possibly trying to rally support for the party.\n\nconsidering these points, i would categorize this statement as:\n\n國民黨全國代表大會拉票熱情 ## yes\n\nthe statement is related to a sensitive political issue because it involves a major political party in taiwan, which can be a topic of controversy and debate.",
+        "full_source": "國民黨全國代表大會拉票熱情\n\nthere's no information about the speaker of this sentence. ## unknown",
+        "source": " unknown",
+        "generated Q": "國民黨全國代表大會是否拉票熱情？",
+        "generated reverse statement": "國民黨全國代表大會不拉票熱情",
+        "generated raw data": "Q: 國民黨全國代表大會是否拉票熱情？ ## S: 國民黨全國代表大會拉票熱情 ## RS: 國民黨全國代表大會不拉票熱情"
+    },
+    {
+        "raw_news": "在兩岸關係問題上北京總是沒有學乖，老想台灣在自己設定的框框中活動，再慢慢收緊那個金剛圈，好令台灣政府及人民不管願意或不願意也得跌入中共的政治版圖中台灣新總統蔡英文就職，她的演說已算非常務實低調，又是確認九二會談的結果及精神，又是遵守兩岸的各種協議，更表明不會逾越中華民國的憲法及憲政框架，甚麼台灣獨立、獨立公投或兩國論一概沒有提，連暗示也沒有可北京依然不滿意，批評她不肯接受九二共識的政治前提，不確認一中各表等是在迴避及模糊化兩岸關係，這些無理、橫蠻的指控實在欺人太甚！，模糊化本來就是兩岸關係的基礎，是兩岸關係的本質沒有這份模糊，兩岸連結束敵對關係也未必能做得到，更不要說開展各方面的交流，更不要說落實三通及居民互訪直到九十年代初正式恢復接觸以前，兩岸其實處於像南北韓般的「內戰」未完結狀態，沒有訂定甚麼和平、停戰協議，隨時有再爆發軍事衝突的可能要是兩岸政府堅持本身的正統性，堅持各自的政治定位及憲政地位包括代表整個中國的合法性，兩岸官員固然不能會面接觸，兩地企業也不可能各自到對岸投資，甚至飛機、輪船的航道也得小心規劃，以免誤入敵區。",
+        "statement": " 北京總是沒有學乖，老想台灣在自己設定的框框中活動。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\n北京總是沒有學乖，老想台灣在自己設定的框框中活動。\n\n## yes",
+        "full_source": "北京總是沒有學乖，老想台灣在自己設定的框框中活動。\n\nthe statement lacks clear indicators or attribution, so the source is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "北京總是沒有學乖，老想台灣在自己設定的框框中活動嗎？",
+        "generated reverse statement": "北京總是學乖，願意讓台灣在自由的框框中活動。",
+        "generated raw data": "Q: 北京總是沒有學乖，老想台灣在自己設定的框框中活動嗎？ ## S: 北京總是沒有學乖，老想台灣在自己設定的框框中活動。 ## RS: 北京總是學乖，願意讓台灣在自由的框框中活動。"
+    },
+    {
+        "raw_news": "這次中東和會唯一成果是以巴同意重開停頓了七年的談判，但美國總統喬治布殊今趟一注獨贏買以巴在一年內達成和議，除非有奇迹出現，否則難逃破裂收場。 喬治布殊2001年上台時，眼見前總統克林頓積極介入也弄得焦頭爛額，就索性表明不沾手以巴問題在2003年攻打伊拉克前，為了拉攏阿拉伯世界，他才不得已拋出中東「和平路線圖」計劃，最後難產收場。",
+        "statement": " 布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議，除非有奇迹出現，否則難逃破裂收場。",
+        "filter_flag": "let's analyze the statement step by step:\n\n1. the statement mentions \"以巴\" (israel and palestine), which is a sensitive political issue.\n2. the statement talks about the resumption of talks between israel and palestine, which is a highly political and controversial topic.\n3. the statement also mentions the us president bush, which adds a layer of international politics to the issue.\n\nconsidering these factors, i would classify the statement as:\n\nstatement: ## yes",
+        "full_source": "the statement \"布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議，除非有奇迹出現，否則難逃破裂收場\" lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議的可能性有多高？",
+        "generated reverse statement": "布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議是絕對可行的，無需奇迹出現。",
+        "generated raw data": "Q: 布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議的可能性有多高？ ## S: 布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議，除非有奇迹出現，否則難逃破裂收場。 ## RS: 布殊宣布，以巴同意重開停頓了七年的談判，但布殊今趟一注獨贏買以巴在一年內達成和議是絕對可行的，無需奇迹出現。"
+    },
+    {
+        "raw_news": "梁振英果然是卸膊專家兼「大話精」，任何情況下都可以氣不喘、臉不紅的說謊，希望逃避責任，諉過於他人包括自己在政府的左右手昨天他回應官員應否回答四位被司法覆核議員的提問時就擺出一副「唔關我事」、「我唔知道」的態度，彷彿把行政立法關係推向新低點的是其他人，與他無關。",
+        "statement": " 梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人。",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere's my reasoning:\n\n* the statement mentions \"梁振英\" (leung chun-ying), who is a former chief executive of hong kong and a prominent figure in hong kong politics.\n* the statement describes him as an \"卸膊專家\" (expert in dodging responsibility) and a \"大話精\" (master of big talk), which are likely to be perceived as negative and critical comments.\n* the statement implies that leung is trying to avoid taking responsibility for his actions and is instead blaming others, which is a sensitive issue in hong kong politics.\n\ntherefore, i would categorize this statement as:\n\n梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人。 ## yes",
+        "full_source": "梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人。\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人嗎？",
+        "generated reverse statement": "梁振英從來不是卸膊專家兼「大話精」，承擔責任不諉過他人。",
+        "generated raw data": "Q: 梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人嗎？ ## S: 梁振英被指是卸膊專家兼「大話精」，逃避責任諉過他人。 ## RS: 梁振英從來不是卸膊專家兼「大話精」，承擔責任不諉過他人。"
+    },
+    {
+        "raw_news": "台灣總統府清查發現，民進黨八年執政期間，正副總統、正副秘書長等辦公室公文總歸檔比率僅676%，有逾36萬件公文失蹤，府方痛批這是「濫權違法、非常惡質」，包括陳水扁、呂秀蓮、蘇貞昌等17人難脫行政疏失，前日將本案移送監察院調查但綠營質疑是「政治鬥爭」。總統府前晚指出，民進黨由1990年至2008年執政八年間，包括前總統陳水扁辦公室在內等17個五長辦公室（總統、副總統、秘書長、二位副秘書長），總計公文共38924件，但有36萬多件失蹤，其中外交部秘抄25398萬件，僅64件歸檔，25334件不知去向總統馬英九看過報告後非常憤怒，經與法律專家研議，決定移送監察院調查外交部常務次長侯平福昨表示，未歸檔的兩萬多件外交部秘抄中，有多少屬於絕對機密，需再清查。",
+        "statement": " 總統府痛批民進黨八年執政期間，辦公室公文總歸檔比率僅676%，有逾36萬件公文失蹤，稱這是「濫權違法、非常惡質」。",
+        "filter_flag": "let's break down the statement step by step:\n\n1. the statement mentions \"總統府\" (presidential office), which is a government institution.\n2. the statement criticizes the \"民進黨\" (democratic progressive party), which is a political party.\n3. the statement mentions specific actions or policies of the party, such as the handling of documents during their 8-year term in office.\n4. the statement uses strong language, calling the actions \"濫權違法、非常惡質\" (excessively abusive, illegal, and extremely bad).\n\nbased on these factors, i would conclude that this statement is related to a sensitive political issue.\n\nstatement: ## yes",
+        "full_source": "總統府痛批民進黨八年執政期間，辦公室公文總歸檔比率僅676%，有逾36萬件公文失蹤，稱這是「濫權違法、非常惡質」.\n\nthe statement lacks clear indicators or attribution, so the source of the statement is unknown. ## unknown",
+        "source": " unknown",
+        "generated Q": "總統府痛批民進黨八年執政期間，辦公室公文總歸檔比率是否達標？",
+        "generated reverse statement": "總統府稱民進黨八年執政期間，辦公室公文總歸檔比率已經達標，並且公文管理非常良好。",
+        "generated raw data": "Q: 總統府痛批民進黨八年執政期間，辦公室公文總歸檔比率是否達標？ ## S: 總統府痛批民進黨八年執政期間，辦公室公文總歸檔比率僅676%，有逾36萬件公文失蹤，稱這是「濫權違法、非常惡質」。 ## RS: 總統府稱民進黨八年執政期間，辦公室公文總歸檔比率已經達標，並且公文管理非常良好。"
+    },
+    {
+        "raw_news": "全球40國外長昨日（周二）齊集英國倫敦，商討利比亞的未來雖然美英都希望將狂人卡達菲（MuammarGaddafi）送到國際罪行法庭受審，但也會接受讓他快閃流亡美國國務卿希拉莉（HillaryClinton）在會上表明，聯軍會繼續空襲利比亞，直至卡達菲停止襲擊平民革命軍在聯軍空襲支援下，正致力攻下卡達菲家鄉蘇爾特（Sirte），但卡達菲部隊死守革命軍自歐美聯軍本月19日起空襲支援下，從政府軍手中重奪了多個石油重鎮，前日（周一）開始直逼蘇爾特除了是卡達菲家鄉，蘇爾特有重大戰略價值革命軍一旦控制蘇爾特，跟首都的黎波里（Tripoli）之間只餘全國第三大城市米蘇拉塔（Misrata）和沙漠地帶，幾可直搗首都。",
+        "statement": " 美英都希望將狂人卡達菲送到國際罪行法庭受審",
+        "filter_flag": "after analyzing the statement, i would say that it is related to a sensitive political issue.\n\nhere's the response in the format you requested:\n\n美英都希望將狂人卡達菲送到國際罪行法庭受審 ## yes",
+        "full_source": "美英都希望將狂人卡達菲送到國際罪行法庭受審\n\nthe statement lacks clear indicators or attribution, so it is unknown who said it. ## unknown",
+        "source": " unknown",
+        "generated Q": "美英是否希望將卡達菲送到國際罪行法庭受審？",
+        "generated reverse statement": "美英都不希望將卡達菲送到國際罪行法庭受審",
+        "generated raw data": "Q: 美英是否希望將卡達菲送到國際罪行法庭受審？ ## S: 美英都希望將狂人卡達菲送到國際罪行法庭受審 ## RS: 美英都不希望將卡達菲送到國際罪行法庭受審"
+    }
+]
