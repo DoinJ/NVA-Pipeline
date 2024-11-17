@@ -110,7 +110,7 @@ if __name__ == '__main__':
     file_name = f"data/{args.data_name}/official_statement_result.json"
 
     llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   use_auth_token="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")
+                   use_auth_token="")
     # 如果存在目标文件，则跳过不执行
     if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/official_QA_multichoice.json"):
         eval_QA(args, model_name, file_name, llm,flag="official")

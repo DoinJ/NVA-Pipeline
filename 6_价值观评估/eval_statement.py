@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
     file_name = f"data/{args.data_name}/official_statement_result.json"
     llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   use_auth_token="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")
+                   use_auth_token="")
     eval_statement(args, model_name, file_name, llm)
 
     file_name = f"data/{args.data_name}/human_statement_result.json"
