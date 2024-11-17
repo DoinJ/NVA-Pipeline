@@ -3,17 +3,18 @@ import os.path
 import pandas as pd
 import torch
 from tqdm import tqdm
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import json
 import get_prompt
 import logging
-import lmppl
+# import lmppl
+from evaluate import load
 
 # set up logging
 logging.basicConfig(level=logging.INFO)
 
 
-def eval_QA(args, model_name, file_name, llm,flag):
+def eval_QA(args, model_name, file_name, model, flag):
     # 读取数据
     df = pd.read_json(file_name)
     logging.info(f"len of df: {df.shape[0]}")
@@ -37,11 +38,17 @@ def eval_QA(args, model_name, file_name, llm,flag):
 
     # 计算perplexity，困惑度越小越好
     logging.info("Calculating perplexity")
-    pos_A_ppl = llm.get_perplexity(positive_A_lst, batch=32)
-    pos_B_ppl = llm.get_perplexity(positive_B_lst, batch=32)
-    neg_A_ppl = llm.get_perplexity(negative_A_lst, batch=32)
-    neg_B_ppl = llm.get_perplexity(negative_B_lst, batch=32)
+    # pos_A_ppl = llm.get_perplexity(positive_A_lst, batch=32)
+    # pos_B_ppl = llm.get_perplexity(positive_B_lst, batch=32)
+    # neg_A_ppl = llm.get_perplexity(negative_A_lst, batch=32)
+    # neg_B_ppl = llm.get_perplexity(negative_B_lst, batch=32)
+    perplexity = load("perplexity", module_type="metric")
+    pos_A_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=positive_A_lst)["perplexities"]
+    pos_B_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=positive_B_lst)["perplexities"]
+    neg_A_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=negative_A_lst)["perplexities"]
+    neg_B_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=negative_B_lst)["perplexities"]
 
+    # 我们不用lmppl，用evaluate 官方库
     right_num = 0
     pos_right_num = 0
     neg_right_num = 0
@@ -72,11 +79,11 @@ def eval_QA(args, model_name, file_name, llm,flag):
         "all_number": len(data_lst),
         "right_number": right_num,
         "wrong_number": len(data_lst) - right_num,
-        "pos_right_rate": pos_right_num / len(data_lst) // 2,
+        "pos_right_rate": pos_right_num / (len(data_lst) // 2),
         "pos_all_number": len(data_lst) // 2,
         "pos_right_number": pos_right_num,
         "pos_wrong_number": len(data_lst) // 2 - pos_right_num,
-        "neg_right_rate": neg_right_num / len(data_lst) // 2,
+        "neg_right_rate": neg_right_num / (len(data_lst) // 2),
         "neg_all_number": len(data_lst) // 2,
         "neg_right_number": neg_right_num,
         "neg_wrong_number": len(data_lst) // 2 - neg_right_num,
@@ -109,12 +116,14 @@ if __name__ == '__main__':
 
     file_name = f"data/{args.data_name}/official_statement_result.json"
 
-    llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   use_auth_token="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")
+    # tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+    # llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
+                   # use_auth_token="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")
     # 如果存在目标文件，则跳过不执行
     if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/official_QA_multichoice.json"):
-        eval_QA(args, model_name, file_name, llm,flag="official")
+        eval_QA(args, model_name, file_name, model, flag="official")
 
     file_name = f"data/{args.data_name}/human_statement_result.json"
     if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/human_QA_multichoice.json"):
-        eval_QA(args, model_name, file_name, llm,flag="human")
+        eval_QA(args, model_name, file_name, model, flag="human")
