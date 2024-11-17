@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
 
     llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   use_auth_token="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")
+                   use_auth_token="")
     v_llm = LLM(
         # enforce_eager=True,
         model="Qwen/Qwen2-7B-Instruct", dtype="bfloat16",

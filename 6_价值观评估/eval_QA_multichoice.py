@@ -119,7 +119,7 @@ if __name__ == '__main__':
     # tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
     # llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   # use_auth_token="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")
+                   # use_auth_token="")
     # 如果存在目标文件，则跳过不执行
     if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/official_QA_multichoice.json"):
         eval_QA(args, model_name, file_name, model, flag="official")
