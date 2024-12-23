@@ -1,5 +1,8 @@
-# NaVAB-Pipeline
+<span style="font-family: 'Brush Script MT', cursive; font-size: 48px; color: #003366; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">NaVAB</span>-Pipeline
+
 NaVAB is a comprehensive benchmark designed to evaluate the alignment of Large Language Models (LLMs) with the values of different nations. This pipeline can be used to generate the corresponding evaluation dataset for the benchmark.
+
+![NaVAB Pipeline Diagram][fig.jpg]
 
 ## Prerequisites
 - Python 3.x
@@ -26,7 +29,7 @@ NaVAB is a comprehensive benchmark designed to evaluate the alignment of Large L
 Make sure to install these packages before running the NaVAB pipeline. You can use the following command to install them:
 
 ```
-pip install datasets nltk sentence_transformers sklearn bertopic torch transformers cuml pandas tqdm zhconv matplotlib
+pip install datasets nltk sentence_transformers sklearn bertopic torch transformers cuml pandas tqdm zhconv matplotlib accelerate bitsandbytes xformers adjustText kaleido evaluate
 ```
 
 - Download the raw data and ensure it follows the required data format
