@@ -20,6 +20,8 @@ if __name__ == '__main__':
                             "bbc",
                             "cnn",
                             "new_york_times",
+                            "french",
+                            "german"
                         ])
     parser.add_argument("--llm_name", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct")
 

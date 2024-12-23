@@ -29,7 +29,7 @@ NaVAB is a comprehensive benchmark designed to evaluate the alignment of Large L
 Make sure to install these packages before running the NaVAB pipeline. You can use the following command to install them:
 
 ```
-pip install datasets nltk sentence_transformers sklearn bertopic torch transformers cuml pandas tqdm zhconv matplotlib accelerate bitsandbytes xformers adjustText kaleido evaluate
+pip install -r requirements.txt
 ```
 
 - Download the raw data and ensure it follows the required data format

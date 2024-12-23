@@ -1,0 +1,14 @@
+datasets
+nltk
+sentence_transformers
+sklearn
+bertopic
+torch
+transformers
+cuml
+pandas
+tqdm
+zhconv
+matplotlib
+accelerate
+vllm
