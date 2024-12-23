@@ -21,7 +21,7 @@ def generate_prompt_ids(tokenizer, data_lst, args=None):
 
     prompt_lst = data_lst
     if args.data_name in [
-        "appledaily", "pressreleases",
+        "pressreleases",
         "gov_xuexiqiangguo", "zh_mfa", "news_peoples_daily",
     ]:
         lang = "香港繁體中文"

@@ -15,9 +15,9 @@ if __name__ == '__main__':
     # create a parser object
     parser = argparse.ArgumentParser()
     # add arguments
-    parser.add_argument("--data_name", type=str, default="appledaily",
+    parser.add_argument("--data_name", type=str, default="pressreleases",
                         choices=[
-                            "appledaily", "pressreleases",
+                            "pressreleases",
                             "gov_xuexiqiangguo", "zh_mfa", "news_peoples_daily",
                             "bbc",
                             "cnn",

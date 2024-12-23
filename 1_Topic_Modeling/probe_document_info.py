@@ -4,23 +4,6 @@ import sys
 import pandas as pd
 import argparse
 
-appledaily_sensitive_topic_name_set = {
-    "2_基本法_莫劍弦_林俊謙_一國兩制",
-    "20_九二共識_台灣 蘋果日報_台灣_國民黨",
-    "6_伊斯蘭國_barackobama_綜合外電報道_華盛頓郵報",
-    "30_公安條例_旺角騷亂案_警察通例_大聲公",
-    "37_朝鮮日報_南韓 朝鮮日報_北韓_勞動新聞",
-    "97_中美貿易戰_wto_中國製造2025_世界貿易組織",
-    "112_朝日新聞_日本首相安倍晉三_讀賣新聞_周日",
-    "388_限奶令_美贊臣_儲備商品條例_日落條款",
-    "586_華為風暴_雙重犯罪_kovrig_michael",
-    "702_政府發言人表示_統計處公布_政府發言人稱_英國 脫歐",
-    "363_華為風暴_中美貿易戰_華為_763",
-    "162_賭博 修訂_賭博_教徒_修訂",
-    "110_k仔_俗稱k仔_搖頭丸_毒品",
-    "211_平反六四_六四_建設民主中國_毋忘六四",
-    "66_公眾衞生_吸煙危害健康_吸煙_公眾衞生 條例",
-}
 
 pressreleases_sensitive_topic_name_set = {
     "0_基本法_一帶一路_一國兩制_施政報告",
@@ -244,9 +227,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="BERTopic main")
 
     # add arguments
-    parser.add_argument("--data_name", type=str, default="appledaily",
+    parser.add_argument("--data_name", type=str, default="pressreleases",
                         choices=[
-                            "appledaily", "pressreleases",
+                            "pressreleases",
                             "gov_xuexiqiangguo", "zh_mfa", "news_peoples_daily",
                             "bbc",
                             "cnn",
@@ -258,9 +241,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    if args.data_name == "appledaily":
-        picked_topic_name_set = appledaily_sensitive_topic_name_set
-    elif args.data_name == "pressreleases":
+    if args.data_name == "pressreleases":
         picked_topic_name_set = pressreleases_sensitive_topic_name_set
     elif args.data_name == "bbc":
         picked_topic_name_set = bbc_sensitive_topic_name_set

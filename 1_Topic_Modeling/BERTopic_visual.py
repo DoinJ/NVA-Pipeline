@@ -29,9 +29,9 @@ loaded_model = BERTopic.load("my_model_dir", embedding_model=embedding_model)
 
 
 # 如果有保存的SentenceTransformer对象，可以直接加载
-if os.path.exists(f"data/appledaily_embedding/{sentence_model_name}.pkl"):
+if os.path.exists(f"data/german_embedding/{sentence_model_name}.pkl"):
     logging.info("Loading embeddings from file")
-    embeddings = pickle.load(open(f"data/appledaily_embedding/{sentence_model_name}.pkl", "rb"))
+    embeddings = pickle.load(open(f"data/german_embedding/{sentence_model_name}.pkl", "rb"))
 else:
     # Pre-calculate embeddings
     # embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -44,9 +44,9 @@ else:
     # Optional: Stop the processes in the pool
     embedding_model.stop_multi_process_pool(pool)
 
-    if not os.path.exists(f"data/appledaily_embedding/{sentence_model_name.split('/')[0]}"):
-        os.makedirs(f"data/appledaily_embedding/{sentence_model_name.split('/')[0]}")
-    pickle.dump(embeddings, open("data/appledaily_embedding/{}.pkl".format(sentence_model_name), "wb"))
+    if not os.path.exists(f"data/german_embedding/{sentence_model_name.split('/')[0]}"):
+        os.makedirs(f"data/german_embedding/{sentence_model_name.split('/')[0]}")
+    pickle.dump(embeddings, open("data/german_embedding/{}.pkl".format(sentence_model_name), "wb"))
 logging.info(f"Embeddings computed. Shape: {embeddings.shape}")
 
 # visualize the topics

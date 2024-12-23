@@ -21,32 +21,19 @@ def my_load_dataset(data_name: str) -> List[str]:
 
     # Initialize an empty list to store the data from each file
     data_list = []
-    if data_name in ["appledaily", "pressreleases"]:
-        if data_name == "appledaily":
-            file_path = "/aifs4su/hansirui/juchengyi/价值观/1_data/data/appledaily_clean_json/"
-            # Iterate over all the files in the directory
-            for file in tqdm(
-                    os.listdir(file_path),  # Directory to load files from
-                    desc="Loading dataset",  # Description to display on the progress bar
-                    total=len(os.listdir(file_path))  # Total number of files to load
-            ):
-                # Load the JSON data from the current file
-                data = json.load(open(f"{file_path}{file}", "r", encoding="utf-8"))
-                # Append the data to the list
-                data_list.extend(data)
-        elif data_name == "pressreleases":
-            file_path = "/aifs4su/hansirui/juchengyi/价值观/1_data/data/pressreleases_clean_json/"
+    if data_name == "pressreleases":
+        file_path = "/aifs4su/hansirui/juchengyi/价值观/1_data/data/pressreleases_clean_json/"
             # using walk through, and iterate over all the files in the directory
             # 递归遍历，遇到文件夹继续遍历
-            for root, dirs, files in os.walk(file_path):
-                for file in tqdm(
-                        files,  # Directory to load files from
-                        desc="Loading dataset",  # Description to display on the progress bar
-                        total=len(files)  # Total number of files to load
+        for root, dirs, files in os.walk(file_path):
+            for file in tqdm(
+                    files,  # Directory to load files from
+                    desc="Loading dataset",  # Description to display on the progress bar
+                    total=len(files)  # Total number of files to load
                 ):
-                    data = json.load(open(os.path.join(root, file), "r", encoding="utf-8"))
-                    # Append the data to the list
-                    data_list.extend(data)
+                data = json.load(open(os.path.join(root, file), "r", encoding="utf-8"))
+                # Append the data to the list
+                data_list.extend(data)
         # Concatenate the data from all the files into a single dataset
         dataset = Dataset.from_list(data_list)
 

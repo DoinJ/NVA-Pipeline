@@ -47,9 +47,9 @@ if __name__ == "__main__":
                                  "aari1995/German_Semantic_STS_V2",
                                  "dangvantuan/sentence-camembert-base",
                                  "antoinelouis/french-me5-small"])
-    parser.add_argument("--data_name", type=str, default="appledaily",
+    parser.add_argument("--data_name", type=str, default="pressreleases",
                         choices=[
-                            "appledaily", "pressreleases",
+                            "pressreleases",
                             "gov_xuexiqiangguo", "zh_mfa", "news_peoples_daily",
                             "bbc",
                             "cnn",
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     data_size = len(dataset)
 
     if args.data_name in [
-        "appledaily", "pressreleases",
+        "pressreleases",
         "news_peoples_daily",
         "bbc",
         "cnn"

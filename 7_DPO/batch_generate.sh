@@ -1,4 +1,7 @@
-D_name=appledaily
+D_name=french
+python construct_dpo_data.py --data_name $D_name
+
+D_name=german
 python construct_dpo_data.py --data_name $D_name
 
 D_name=pressreleases
