@@ -1,8 +1,8 @@
-<span style="font-family: 'Brush Script MT', cursive; font-size: 48px; color: #003366; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">NaVAB</span>-Pipeline
+# <span style="font-family: 'Brush Script MT', cursive; font-size: 48px; color: #003366; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">NaVAB</span>-Pipeline
 
 NaVAB is a comprehensive benchmark designed to evaluate the alignment of Large Language Models (LLMs) with the values of different nations. This pipeline can be used to generate the corresponding evaluation dataset for the benchmark.
 
-![NaVAB Pipeline Diagram][fig.jpg]
+![NaVAB Pipeline Diagram](fig.jpg)
 
 ## Prerequisites
 - Python 3.x
