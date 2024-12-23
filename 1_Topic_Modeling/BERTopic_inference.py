@@ -19,7 +19,13 @@ if __name__ == "__main__":
 
     # add arguments
     parser.add_argument("--sentence_model_name", type=str, default="BAAI/bge-small-zh-v1.5",
-                        choices=["BAAI/bge-small-zh-v1.5", "BAAI/bge-small-en-v1.5"])
+                        choices=["BAAI/bge-small-zh-v1.5", 
+                                 "BAAI/bge-small-en-v1.5", 
+                                 "BAAI/bge-multilingual-gemma2", 
+                                 "dangvantuan/french-document-embedding", 
+                                 "aari1995/German_Semantic_STS_V2",
+                                 "dangvantuan/sentence-camembert-base",
+                                 "antoinelouis/french-me5-small"])
     parser.add_argument("--data_name", type=str, default="appledaily",
                         choices=[
                             "appledaily", "pressreleases",
@@ -27,6 +33,8 @@ if __name__ == "__main__":
                             "bbc",
                             "cnn",
                             "new_york_times",
+                            "french",
+                            "german"
                         ])
     parser.add_argument("--llm_name", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct")
 
@@ -54,6 +62,8 @@ if __name__ == "__main__":
         "bbc",
         "cnn",
         "new_york_times",
+        "french",
+        "german"
     ]:
         # Get stop words
         # create dir

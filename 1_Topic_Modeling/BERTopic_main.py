@@ -26,6 +26,7 @@ from cuml.manifold import UMAP
 from cuml.cluster import HDBSCAN
 import argparse
 
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 # CPU support
 # from umap import UMAP
 # from hdbscan import HDBSCAN
@@ -39,7 +40,13 @@ if __name__ == "__main__":
 
     # add arguments
     parser.add_argument("--sentence_model_name", type=str, default="BAAI/bge-small-zh-v1.5",
-                        choices=["BAAI/bge-small-zh-v1.5", "BAAI/bge-small-en-v1.5"])
+                        choices=["BAAI/bge-small-zh-v1.5", 
+                                 "BAAI/bge-small-en-v1.5", 
+                                 "BAAI/bge-multilingual-gemma2", 
+                                 "dangvantuan/french-document-embedding", 
+                                 "aari1995/German_Semantic_STS_V2",
+                                 "dangvantuan/sentence-camembert-base",
+                                 "antoinelouis/french-me5-small"])
     parser.add_argument("--data_name", type=str, default="appledaily",
                         choices=[
                             "appledaily", "pressreleases",
@@ -47,6 +54,8 @@ if __name__ == "__main__":
                             "bbc",
                             "cnn",
                             "new_york_times",
+                            "french",
+                            "german"
                         ])
     parser.add_argument("--llm_name", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct")
     parser.add_argument("--min_cluster_size", type=int, default=50)
@@ -62,6 +71,8 @@ if __name__ == "__main__":
         "bbc",
         "cnn"
         "new_york_times",
+        "french",
+        "german"
     ]:
         # Get stop words
         # create dir
@@ -81,7 +92,8 @@ if __name__ == "__main__":
 
     # Load the SentenceTransformer model
     sentence_model_name = args.sentence_model_name
-    embedding_model = SentenceTransformer(sentence_model_name)
+    # embedding_model = SentenceTransformer(sentence_model_name)
+    embedding_model = SentenceTransformer(sentence_model_name, trust_remote_code=True) # Set trust_remote_code=True for French and German embedding model
     # 如果有保存的SentenceTransformer对象，可以直接加载
     if os.path.exists(f"data/{args.data_name}_embedding/{sentence_model_name}.pkl"):
         logging.info(f"Loading data/{args.data_name}_embedding/ from file")
@@ -124,8 +136,8 @@ if __name__ == "__main__":
     # 有一个参数可以控制主题的数量，即 nr_topics 。但是，此参数会在创建主题后合并主题。它是一个支持创建固定数量主题的参数。
 
     # Vectorize text & c-TF-IDF
-    # vectorizer_model = CountVectorizer(stop_words=stopword_lst, min_df=2, ngram_range=(1, 2))
-    vectorizer_model = CountVectorizer(stop_words="english", min_df=2, ngram_range=(1, 2))
+    vectorizer_model = CountVectorizer(stop_words=stopword_lst, min_df=1, ngram_range=(1, 2))
+    # vectorizer_model = CountVectorizer(stop_words="english", min_df=2, ngram_range=(1, 2))
     # 忽略停用词和不常用词。此外，通过增加 n 元语法范围，我们将考虑由一个或两个单词组成的主题表示。
 
     # KeyBERT
@@ -165,6 +177,7 @@ if __name__ == "__main__":
         torch_dtype=bfloat16,
     )
     model.eval()
+    # model.to('cuda:1')
 
     # Our text generator
     generator = transformers.pipeline(

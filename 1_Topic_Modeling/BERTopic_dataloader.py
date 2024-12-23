@@ -2,7 +2,7 @@ import json
 import logging
 import os
 from typing import List
-
+import pandas as pd
 from datasets import Dataset, get_dataset_config_names, load_dataset
 
 from tqdm import tqdm
@@ -23,7 +23,7 @@ def my_load_dataset(data_name: str) -> List[str]:
     data_list = []
     if data_name in ["appledaily", "pressreleases"]:
         if data_name == "appledaily":
-            file_path = "data/appledaily_clean_json/"
+            file_path = "/aifs4su/hansirui/juchengyi/价值观/1_data/data/appledaily_clean_json/"
             # Iterate over all the files in the directory
             for file in tqdm(
                     os.listdir(file_path),  # Directory to load files from
@@ -35,7 +35,7 @@ def my_load_dataset(data_name: str) -> List[str]:
                 # Append the data to the list
                 data_list.extend(data)
         elif data_name == "pressreleases":
-            file_path = "data/pressreleases_clean_json/"
+            file_path = "/aifs4su/hansirui/juchengyi/价值观/1_data/data/pressreleases_clean_json/"
             # using walk through, and iterate over all the files in the directory
             # 递归遍历，遇到文件夹继续遍历
             for root, dirs, files in os.walk(file_path):
@@ -63,7 +63,7 @@ def my_load_dataset(data_name: str) -> List[str]:
         return dataset
 
     elif data_name == "gov_xuexiqiangguo":
-        cache_dir = './data/gov_xuexiqiangguo/'
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/gov_xuexiqiangguo/'
         dataset = load_dataset(
             "liwu/MNBVC",
             'gov_xuexiqiangguo',
@@ -81,7 +81,7 @@ def my_load_dataset(data_name: str) -> List[str]:
         return text_lst
 
     elif data_name == "zh_mfa":
-        cache_dir = './data/qa_mfa/'
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/qa_mfa/'
         dataset = load_dataset(
             "liwu/MNBVC",
             'qa_mfa',
@@ -93,7 +93,7 @@ def my_load_dataset(data_name: str) -> List[str]:
         return dataset
 
     elif data_name == "news_peoples_daily":
-        cache_dir = './data/news_peoples_daily/'
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/news_peoples_daily/'
         dataset = load_dataset(
             "liwu/MNBVC",
             'news_peoples_daily',
@@ -118,7 +118,7 @@ def my_load_dataset(data_name: str) -> List[str]:
             datasets[config] = load_dataset(
                 'RealTimeData/bbc_news_alltime',
                 config,
-                cache_dir=f"./data/bbc_news_alltime/{config}",
+                cache_dir=f"/aifs4su/hansirui/juchengyi/价值观/1_data/data/bbc_news_alltime/{config}",
                 split='train',
             )
         text_lst = []
@@ -131,7 +131,7 @@ def my_load_dataset(data_name: str) -> List[str]:
 
     elif data_name == "cnn":
         # 加载数据集，并指定缓存目录
-        cache_dir = './data/cnn/'
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/cnn/'
         dataset = load_dataset(
             'abisee/cnn_dailymail',
             '3.0.0',
@@ -143,7 +143,8 @@ def my_load_dataset(data_name: str) -> List[str]:
         return dataset
 
     elif data_name == "new_york_times":
-        cache_dir = './data/new_york_times_news_2000_2007'
+        # cache_dir = './data/new_york_times_news_2000_2007'
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/new_york_times_news_2000_2007'
         dataset = load_dataset(
             'ErikCikalleshi/new_york_times_news_2000_2007',
             split='train',
@@ -151,6 +152,39 @@ def my_load_dataset(data_name: str) -> List[str]:
         )
         dataset = dataset["content"]
         dataset = [item[:3000] for item in dataset]
+        return dataset
+    
+    elif data_name == "french":
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/diverse_french_news'
+        # cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/French-PD-Newspapers'
+        dataset = load_dataset(
+            'gustavecortal/diverse_french_news',
+            # 'PleIAs/French-PD-Newspapers',
+            cache_dir=cache_dir,
+            split='train',
+        )
+        # dataset = dataset.select(range(3000))  # Select the first 3000 rows
+        dataset = dataset["text"]
+        dataset = [item[:3000] for item in dataset]
+        return dataset
+    
+    elif data_name == "german":
+        cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/German-PD-Newspapers'
+        dataset = load_dataset(
+            'storytracer/German-PD-Newspapers',
+            cache_dir=cache_dir,
+            split='train',
+        )
+        dataset = dataset["text"]
+        dataset = [item[:3000] for item in dataset]
+        # cache_dir = '/aifs4su/hansirui/juchengyi/价值观/1_data/data/german-news-dataset'
+        '''
+        dataset = pd.read_csv(cache_dir + '/data.csv')
+        dataset = dataset["text"]
+        dataset = dataset.head(3000)  # Select the first 3000 rows
+        dataset = dataset.tolist()  # Convert the Series to a list
+        dataset = [item[:3000] if isinstance(item, str) else '' for item in dataset]
+        '''
         return dataset
 
 

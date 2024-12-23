@@ -25,6 +25,8 @@ def get_stop_words(dataset_lst):
     chinese_stop_words = list(stopwords.words('chinese'))
     traditional_chinese_stop_words = [zhconv.convert(word, 'zh-hk') for word in chinese_stop_words]
     english_stop_words = list(stopwords.words('english'))
+    french_stop_words = list(stopwords.words('french'))
+    german_stop_words = list(stopwords.words('german'))
 
     # 从dataset_lst将词频最高的前100个词作为停用词
     # 分词
@@ -42,7 +44,7 @@ def get_stop_words(dataset_lst):
     # 将词频最高的词作为停用词
     my_stopwords = [word for word, count in most_common_words]
 
-    stopword_lst = [*chinese_stop_words, *traditional_chinese_stop_words, *english_stop_words, *my_stopwords]
+    stopword_lst = [*chinese_stop_words, *traditional_chinese_stop_words, *english_stop_words, *french_stop_words, *german_stop_words, *my_stopwords]
 
     logging.info(f"Stopwords generated!")
     return stopword_lst
