@@ -4,6 +4,9 @@ NaVAB is a comprehensive benchmark designed to evaluate the alignment of Large L
 
 ![NaVAB Pipeline Diagram](fig.jpg)
 
+## Data
+We use this pipeline to generate an evaluation dataset for 5 nations (China, US, UK, France, Germany). The dataset is available at [NaVAB Dataset](https://huggingface.co/datasets/JadenGGGeee/NaVAB).
+
 ## Prerequisites
 - Python 3.x
 - Required Python packages:
