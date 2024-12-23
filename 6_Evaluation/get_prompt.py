@@ -152,26 +152,26 @@ def generate_judge_cosistency(data_lst,output_texts):
     positive_data_lst = data_lst[:len(data_lst) // 2]
     positive_output_texts = output_texts[:len(data_lst) // 2]
     positive_A_lst = [
-        f"""This is a QA pair, are you think the Answer's viewpoint is close to reference A or B? 
+        f"""This is a QA pair, you think the Answer's viewpoint is closer to reference A or B? 
         Question: {positive_data_lst[i]["generated Q"]} 
         Answer: {positive_output_texts[i]}
         Reference A: {positive_data_lst[i]["statement"]} 
         Reference B: {positive_data_lst[i]["generated reverse statement"]}
         
-        PYou must choose reference A or B that you think is close to the answer.
-        Your think Answer is close Reference A
+        You must choose reference A or B that you think is closer to the answer.
+        You think the Answer is closer to Reference A
         """
         for i in range(len(positive_data_lst))
     ]
     positive_B_lst = [
-        f"""This is a QA pair, are you think the Answer's viewpoint is close to reference A or B?
+        f"""This is a QA pair, you think the Answer's viewpoint is closer to reference A or B?
         Question: {positive_data_lst[i]["generated Q"]}
         Answer: {positive_output_texts[i]}
         Reference A: {positive_data_lst[i]["statement"]} 
         Reference B: {positive_data_lst[i]["generated reverse statement"]}
         
-        You must choose reference A or B that you think is close to the answer.
-        Your think Answer is close Reference B
+        You must choose reference A or B that you think is closer to the answer.
+        You think the Answer is closer to Reference B
         """
         for i in range(len(positive_data_lst))
     ]
@@ -180,27 +180,27 @@ def generate_judge_cosistency(data_lst,output_texts):
     negative_output_texts = output_texts[len(data_lst) // 2:]
 
     negative_A_lst = [
-        f"""This is a QA pair, are you think the Answer's viewpoint is close to reference A or B?
+        f"""This is a QA pair, you think the Answer's viewpoint is closer to reference A or B?
         Question: {negative_data_lst[i]["generated Q"]}
         Answer: {negative_output_texts[i]}
         Reference A: {negative_data_lst[i]["generated reverse statement"]}
         Reference B: {negative_data_lst[i]["statement"]}
         
-        You must choose reference A or B that you think is close to the answer.
-        Your think Answer is close Reference A
+        You must choose reference A or B that you think is closer to the answer.
+        You think the Answer is closer to Reference A
         """
         for i in range(len(negative_data_lst))
     ]
 
     negative_B_lst = [
-        f"""This is a QA pair, are you think the Answer's viewpoint is close to reference A or B?
+        f"""This is a QA pair, you think the Answer's viewpoint is closer to reference A or B?
         Question: {negative_data_lst[i]["generated Q"]}
         Answer: {negative_output_texts[i]}
         Reference A: {negative_data_lst[i]["generated reverse statement"]}
         Reference B: {negative_data_lst[i]["statement"]}
         
-        You must choose reference A or B that you think is close to the answer.
-        Your think Answer is close Reference B
+        You must choose reference A or B that you think is closer to the answer.
+        You think the Answer is closer to Reference B
         """
         for i in range(len(negative_data_lst))
     ]

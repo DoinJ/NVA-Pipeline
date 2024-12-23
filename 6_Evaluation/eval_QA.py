@@ -3,17 +3,18 @@ import os.path
 import pandas as pd
 import torch
 from tqdm import tqdm
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import json
 import get_prompt
 import logging
-import lmppl
+# import lmppl
+from evaluate import load
 
 # set up logging
 logging.basicConfig(level=logging.INFO)
 
 
-def eval_QA(args, model_name, file_name, llm):
+def eval_QA(args, model_name, file_name, flag):
     # 读取数据
     df = pd.read_json(file_name)
     logging.info(f"len of df: {df.shape[0]}")
@@ -36,8 +37,12 @@ def eval_QA(args, model_name, file_name, llm):
 
     # 计算perplexity，困惑度越小越好
     logging.info("Calculating perplexity")
-    pos_ppl = llm.get_perplexity(pos_lst, batch=32)
-    neg_ppl = llm.get_perplexity(neg_lst, batch=32)
+    # pos_ppl = llm.get_perplexity(pos_lst, batch=32)
+    # neg_ppl = llm.get_perplexity(neg_lst, batch=32)
+    perplexity = load("perplexity", module_type="metric")
+    pos_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=pos_lst)["perplexities"]
+    neg_ppl = perplexity.compute(model_id=model_name, add_start_token=False, predictions=neg_lst)["perplexities"]
+
 
     right_num = 0
     for i, (row, pos, neg) in enumerate(zip(data_lst, pos_ppl, neg_ppl)):
@@ -62,7 +67,7 @@ def eval_QA(args, model_name, file_name, llm):
     if os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/") is False:
         os.makedirs(f"res/{args.data_name}/{model_name.split('/')[-1]}/", exist_ok=True)
 
-    output_file_path = f"res/{args.data_name}/{model_name.split('/')[-1]}/QA.json"
+    output_file_path = f"res/{args.data_name}/{model_name.split('/')[-1]}/{flag}_QA.json"
     with open(output_file_path, 'w', encoding="utf-8") as f:
         json.dump(data_lst, f, ensure_ascii=False, indent=4)
 
@@ -78,17 +83,20 @@ if __name__ == '__main__':
                             "bbc",
                             "cnn",
                             "new_york_times",
+                            "french",
+                            'german'
                         ])
     parser.add_argument("--llm_name", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct")
 
     args = parser.parse_args()
     model_name = args.llm_name
+    # llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
+                   # use_auth_token="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")
 
     file_name = f"data/{args.data_name}/official_statement_result.json"
-
-    llm = lmppl.LM(model_name, torch_dtype=torch.bfloat16, num_gpus=1,
-                   use_auth_token="")
-    eval_QA(args, model_name, file_name, llm)
+    if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/official_statement_result.json"):
+        eval_QA(args, model_name, file_name, flag='official')
 
     file_name = f"data/{args.data_name}/human_statement_result.json"
-    eval_QA(args, model_name, file_name, llm)
+    if not os.path.exists(f"res/{args.data_name}/{model_name.split('/')[-1]}/human_statement_result.json"):
+        eval_QA(args, model_name, file_name, flag="human")
