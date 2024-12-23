@@ -45,7 +45,7 @@ pip install -r requirements.txt
 3. **Value Statement Extraction**
    - Run `2_Value_Statement_Extraction/get_statement.py` to extract statements from each dataset
 
-4. **Value-sensitive Statement Screening**
+4. **Conflicting Reduction and Filtering**
    - Run `3_Value-sensitive_Statement_Screening/filter_statement.py` to filter the statements
 
 5. **Statement Source Judgment**
@@ -61,9 +61,8 @@ pip install -r requirements.txt
 
    Note: When running the evaluation scripts, consider the size of the LLM being evaluated and ensure that sufficient GPU memory is allocated. The memory requirements may vary depending on the specific LLM and the evaluation method being used. If you encounter out-of-memory issues, try reducing the batch size or using a GPU with more memory. 
 
-8. **DPO (Optional) and Conflict Reduction**
+8. **DPO (Optional)**
    - Run `7_DPO/construct_dpo_data.py` to construct data for DPO (Data Processing Operation)
-   - Run `2_Value_Statement_Extraction/conflict_reduction.py` to filter non-conflict value statements
 
 ## Paper Abstract
 Do Large Language Models (LLMs) hold positions that conflict with your country's values? In this paper, we introduce NaVAB, a comprehensive benchmark designed to evaluate the alignment of LLMs with the values of five major nations: China, the United States, the United Kingdom, France, and Germany. Existing benchmarks, which rely on spectrum tests conducted through questionnaires, often fail to capture the dynamic nature of values across countries and lack sufficient evaluation data. To address these limitations, NaVAB implements a value data extraction pipeline to efficiently construct value assessment datasets. This process includes a Conflict Reduction mechanism to filter non-conflicting values for a high-quality benchmark. Through extensive experiments on various LLMs (spanning Base vs. Instruct models, non-MoE vs. MoE architectures, and Open vs. Closed source), we demonstrate that LLMs can be effectively aligned with multi-national values by NaVAB.
