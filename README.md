@@ -46,7 +46,7 @@ pip install -r requirements.txt
    - Run `2_Value_Statement_Extraction/get_statement.py` to extract statements from each dataset
 
 4. **Conflicting Reduction and Filtering**
-   - Run `3_Value-sensitive_Statement_Screening/filter_statement.py` to filter the statements
+   - Run `3_Conflict_Reduction_and_Filtering/filter_statement.py` to filter the statements
 
 5. **Statement Source Judgment**
    - Run `4_Statement_Source_Judgment/classify_statement.py` to judge the source of statements
